@@ -1,0 +1,4542 @@
+{
+  "meta": {
+    "name": "Twiftyz Messenger",
+    "version": "0.1.0",
+    "createdAt": "2026-06-30T18:59:47.315Z",
+    "updatedAt": "2026-07-07T21:42:41.381Z"
+  },
+  "users": [
+    {
+      "id": "usr_demo",
+      "email": "demo@twiftyz.local",
+      "phone": "+70000000001",
+      "role": "admin",
+      "firstName": "Илья",
+      "lastName": "Смирнов",
+      "nickname": "twiftyz",
+      "avatar": "/assets/avatars/ru/png_pink/09_i.png",
+      "bio": "Основатель рабочего пространства Twiftyz",
+      "language": "ru",
+      "timezone": "Europe/Moscow",
+      "status": "offline",
+      "birthDate": "",
+      "socialLinks": [
+        "https://twiftyz.local"
+      ],
+      "createdAt": "2026-06-30T18:59:47.315Z",
+      "lastSeenAt": "2026-07-07T21:42:41.380Z",
+      "privacy": {
+        "phone": "contacts",
+        "email": "contacts",
+        "lastSeen": "contacts",
+        "online": "everyone",
+        "avatar": "everyone",
+        "contacts": "nobody"
+      },
+      "security": {
+        "twoFactorEnabled": true,
+        "trustedDevices": [
+          "Windows Desktop",
+          "Web Browser",
+          "Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.845",
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+          "curl/8.19.0"
+        ]
+      },
+      "passwordHash": "scrypt$FiDyFTD7tbHWjKjcnF-JQA$f_7bjTKSvz0qEXYpQVDl0JA_NSPugIvD2-F6zfcTxooPrDTJHOD3DCvxJDZywWEvM84V2tN_lgq0hQx_kYjU-A",
+      "accountStatus": "active",
+      "emailVerifiedAt": "2026-06-30T18:59:47.315Z",
+      "phoneVerifiedAt": "2026-06-30T18:59:47.315Z"
+    },
+    {
+      "id": "usr_anna",
+      "email": "anna@twiftyz.local",
+      "phone": "+70000000002",
+      "role": "user",
+      "firstName": "Анна",
+      "lastName": "Соколова",
+      "nickname": "anna.design",
+      "avatar": "/assets/avatars/ru/png_purp/01_a.png",
+      "bio": "UI/UX, дизайн-системы, прототипы",
+      "language": "ru",
+      "timezone": "Europe/Moscow",
+      "status": "online",
+      "birthDate": "",
+      "socialLinks": [],
+      "createdAt": "2026-06-30T18:59:47.315Z",
+      "lastSeenAt": "2026-06-30T18:59:47.315Z",
+      "privacy": {
+        "phone": "contacts",
+        "email": "nobody",
+        "lastSeen": "contacts",
+        "online": "everyone",
+        "avatar": "everyone",
+        "contacts": "contacts"
+      },
+      "security": {
+        "twoFactorEnabled": false,
+        "trustedDevices": [
+          "iPhone"
+        ]
+      },
+      "passwordHash": "scrypt$o4cXhP-vuf7j987g9aHKOg$zJZXywtKotA9o_ogBoRhomL05BSmJVxcuhK3wJYf6iLQXKj9ezyiiw-JCPrQDQTv-MHtfayrBffJelOQBnLQ-Q",
+      "accountStatus": "active",
+      "emailVerifiedAt": "2026-06-30T18:59:47.315Z",
+      "phoneVerifiedAt": "2026-06-30T18:59:47.315Z"
+    },
+    {
+      "id": "usr_marat",
+      "email": "marat@twiftyz.local",
+      "phone": "+70000000003",
+      "role": "user",
+      "firstName": "Марат",
+      "lastName": "Каримов",
+      "nickname": "marat.ops",
+      "avatar": "/assets/avatars/ru/png_pink/13_m.png",
+      "bio": "Backend, инфраструктура, надежность",
+      "language": "ru",
+      "timezone": "Asia/Yekaterinburg",
+      "status": "away",
+      "birthDate": "",
+      "socialLinks": [],
+      "createdAt": "2026-06-30T18:59:47.315Z",
+      "lastSeenAt": "2026-06-30T18:59:47.315Z",
+      "privacy": {
+        "phone": "contacts",
+        "email": "contacts",
+        "lastSeen": "everyone",
+        "online": "contacts",
+        "avatar": "everyone",
+        "contacts": "nobody"
+      },
+      "security": {
+        "twoFactorEnabled": true,
+        "trustedDevices": [
+          "Linux Workstation"
+        ]
+      },
+      "passwordHash": "scrypt$Za6IPHue6huo9BGC5TPDnQ$pvBHU6Xy4e6kzvAxwZs15A4y2Z8zDguVGXR14UiSJKC9XjEdP3KKoMmsKbdfuu3EWFccOBOQ5Dt5OI5_zAqqNA",
+      "accountStatus": "active",
+      "emailVerifiedAt": "2026-06-30T18:59:47.315Z",
+      "phoneVerifiedAt": "2026-06-30T18:59:47.315Z"
+    },
+    {
+      "id": "usr_lena",
+      "email": "lena@twiftyz.local",
+      "phone": "+70000000004",
+      "role": "user",
+      "firstName": "Лена",
+      "lastName": "Орлова",
+      "nickname": "lena.media",
+      "avatar": "/assets/avatars/ru/png_purp/12_l.png",
+      "bio": "Каналы, комьюнити и контент",
+      "language": "ru",
+      "timezone": "Europe/Moscow",
+      "status": "offline",
+      "birthDate": "",
+      "socialLinks": [
+        "https://example.com/lena"
+      ],
+      "createdAt": "2026-06-30T18:59:47.315Z",
+      "lastSeenAt": "2026-06-30T18:59:47.315Z",
+      "privacy": {
+        "phone": "nobody",
+        "email": "contacts",
+        "lastSeen": "contacts",
+        "online": "contacts",
+        "avatar": "everyone",
+        "contacts": "nobody"
+      },
+      "security": {
+        "twoFactorEnabled": false,
+        "trustedDevices": []
+      },
+      "passwordHash": "scrypt$JQyzYd-djx_Gy_9cF3uNfA$4epMCvJrqTo2PrQeswWgUdI1u_uXkJpjcqrLuwHCiTth4HOT44UisLrftJDh-oWB05mLR6L5doAHHfD-l_m4pg",
+      "accountStatus": "active",
+      "emailVerifiedAt": "2026-06-30T18:59:47.315Z",
+      "phoneVerifiedAt": "2026-06-30T18:59:47.315Z"
+    },
+    {
+      "id": "usr_twiftyz_service",
+      "email": "",
+      "phone": "",
+      "emailVerifiedAt": "",
+      "phoneVerifiedAt": "",
+      "passwordHash": "scrypt$i2xqJJCubaZ3lTfgNCVcTw$XQLMQf34XmYEvm7CtZgT1VhhwiOEIHP3-lRdvdxuCJcIitBKqCGzExAXmX_EpxCBHqUau_upiZTscmGV3L4IrQ",
+      "role": "service",
+      "accountStatus": "active",
+      "firstName": "Twiftyz",
+      "lastName": "",
+      "nickname": "twiftyz",
+      "avatar": "/assets/logo/twiftyz-mark-2a.png",
+      "bio": "Служебные уведомления и коды входа",
+      "language": "ru",
+      "timezone": "Europe/Moscow",
+      "status": "online",
+      "birthDate": "",
+      "socialLinks": [],
+      "createdAt": "2026-06-30T22:56:42.160Z",
+      "lastSeenAt": "2026-06-30T22:56:42.160Z",
+      "privacy": {},
+      "security": {
+        "twoFactorEnabled": false,
+        "trustedDevices": []
+      }
+    },
+    {
+      "id": "usr_0e4ab4321e3ce7a4",
+      "email": "support@twiftyz.ru",
+      "phone": "+79999999999",
+      "emailVerifiedAt": "2026-07-01T11:25:39.822Z",
+      "phoneVerifiedAt": "2026-07-01T11:25:39.821Z",
+      "passwordHash": "scrypt$dRa1_13ZvWeCcgHcggOXjw$jdXcSEJ4cargrP7MD_xfNxoSuCvJAsLYD-BYJCzc54UPIr7_UMJpW62G63fPqAcqOx4m8XuZL0FOFH873tsVgw",
+      "role": "user",
+      "accountStatus": "active",
+      "firstName": "sup",
+      "lastName": "port",
+      "nickname": "supporttwiftyz",
+      "avatar": "/assets/avatars/eng/png_teal/S.png",
+      "bio": "",
+      "language": "ru",
+      "timezone": "Europe/Moscow",
+      "status": "offline",
+      "birthDate": "",
+      "socialLinks": [],
+      "createdAt": "2026-07-01T11:25:39.821Z",
+      "lastSeenAt": "2026-07-01T11:26:46.093Z",
+      "privacy": {
+        "phone": "contacts",
+        "email": "contacts",
+        "lastSeen": "contacts",
+        "online": "everyone",
+        "avatar": "everyone",
+        "contacts": "nobody"
+      },
+      "security": {
+        "twoFactorEnabled": false,
+        "trustedDevices": [
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)"
+        ]
+      }
+    },
+    {
+      "id": "usr_bde1ad2d7cf42c41",
+      "email": "alphadota04@mail.ru",
+      "phone": "+79610080030",
+      "emailVerifiedAt": "2026-07-01T11:27:27.984Z",
+      "phoneVerifiedAt": "2026-07-01T11:27:27.984Z",
+      "passwordHash": "scrypt$DEICHqhpV7yw-V_9MK4ujQ$XGbgXLAUK1y-AHcBMfXA1MFbkr0XDCMM89HDgthXbnj1b1K7rkHH9jODjNCNf4cjyxtyUcDGhyk0OlvFjnb5mw",
+      "role": "user",
+      "accountStatus": "active",
+      "firstName": "Toro",
+      "lastName": "Sidzui",
+      "nickname": "sidzui",
+      "avatar": "/api/avatars/avatar_usr_bde1ad2d7cf42c41_1fe3abb9.png",
+      "bio": "",
+      "language": "ru",
+      "timezone": "Europe/Moscow",
+      "status": "offline",
+      "birthDate": "",
+      "socialLinks": [],
+      "createdAt": "2026-07-01T11:27:27.984Z",
+      "lastSeenAt": "2026-07-02T20:53:47.606Z",
+      "privacy": {
+        "phone": "contacts",
+        "email": "contacts",
+        "lastSeen": "contacts",
+        "online": "everyone",
+        "avatar": "everyone",
+        "contacts": "nobody"
+      },
+      "security": {
+        "twoFactorEnabled": false,
+        "trustedDevices": [
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)"
+        ]
+      }
+    },
+    {
+      "id": "usr_729337299f6a76ab",
+      "email": "zokotimeasd@mail.ru",
+      "phone": "",
+      "emailVerifiedAt": "2026-07-01T11:56:51.643Z",
+      "phoneVerifiedAt": "",
+      "passwordHash": "scrypt$Mtr-o9MQWyYYLxa_fIjItg$AJqFsa4c4KVybNTaALup0Uvcs7fWehZYzLsgTE4D-AU3WdyEjOZ_bF7jRR9zibVZm_tLhS8-ePQLRR4vEC7Pbw",
+      "role": "user",
+      "accountStatus": "active",
+      "firstName": "rasik",
+      "lastName": "фцыуа",
+      "nickname": "oujifhsa",
+      "avatar": "/assets/avatars/eng/png_teal/R.png",
+      "bio": "",
+      "language": "ru",
+      "timezone": "Europe/Moscow",
+      "status": "offline",
+      "birthDate": "",
+      "socialLinks": [],
+      "createdAt": "2026-07-01T11:56:51.643Z",
+      "lastSeenAt": "2026-07-02T20:13:34.918Z",
+      "privacy": {
+        "phone": "contacts",
+        "email": "contacts",
+        "lastSeen": "contacts",
+        "online": "everyone",
+        "avatar": "everyone",
+        "contacts": "nobody"
+      },
+      "security": {
+        "twoFactorEnabled": false,
+        "trustedDevices": [
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)"
+        ]
+      }
+    }
+  ],
+  "sessions": [
+    {
+      "id": "ses_418ffee682126138",
+      "userId": "usr_demo",
+      "token": "vDk8a-XAnmAsdvvEVYIUF-wBApZhWNWlwUczjHO_QBM",
+      "device": "Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.8457",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T19:03:12.880Z",
+      "lastSeenAt": "2026-06-30T19:03:12.897Z",
+      "revokedAt": "2026-07-01T11:38:04.216Z"
+    },
+    {
+      "id": "ses_00260d0e0f0c439e",
+      "userId": "usr_demo",
+      "token": "va8UWWeLdURktsP-2hOoC_2Mxo1sf4n7U5uW3tKHE8U",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 OPR/132.0.0.0 (Edition Yx GX)",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T19:16:11.492Z",
+      "lastSeenAt": "2026-06-30T19:50:34.042Z",
+      "revokedAt": "2026-07-01T11:38:04.216Z"
+    },
+    {
+      "id": "ses_f357668e8b041273",
+      "userId": "usr_a751e071c345610b",
+      "token": "_kZk6An3n4-Bwt8iTddcHVD4XQShw60wPWgjlzi3FHs",
+      "device": "Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.8457",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T19:26:13.833Z",
+      "lastSeenAt": "2026-06-30T19:26:13.833Z",
+      "revokedAt": null
+    },
+    {
+      "id": "ses_290a6ddca69bc54f",
+      "userId": "usr_e8c726b469d4dff2",
+      "token": "wd9SK_7PaMdnhWJ_Xlc-OPcyycu_lczX1Yx9EnVggbw",
+      "device": "Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.8457",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T19:26:13.889Z",
+      "lastSeenAt": "2026-06-30T19:26:13.889Z",
+      "revokedAt": null
+    },
+    {
+      "id": "ses_5c8fbdf1ca6f1701",
+      "userId": "usr_a751e071c345610b",
+      "token": "VNVDGCAG6eKg0Jrhihj7oDM0JsSVRL2gFuwfVcuT5DI",
+      "device": "Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.8457",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T19:26:13.922Z",
+      "lastSeenAt": "2026-06-30T19:26:13.932Z",
+      "revokedAt": null
+    },
+    {
+      "id": "ses_fdbda9bdc8d8032b",
+      "userId": "usr_demo",
+      "token": "NcT4evSGo4fKlEYCDeth2lcu-qEQgNMrFxN3AkM0600",
+      "device": "Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.8457",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T19:28:02.772Z",
+      "lastSeenAt": "2026-06-30T19:28:02.807Z",
+      "revokedAt": "2026-06-30T19:28:02.807Z"
+    },
+    {
+      "id": "ses_096cfadc59753852",
+      "userId": "usr_1942dc207c73e6a2",
+      "token": "sD5YrXOpdTmuFV6XRBqmxXBXztJ591DfP8DJgoYmDLw",
+      "device": "Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.8457",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T19:34:16.152Z",
+      "lastSeenAt": "2026-06-30T19:34:16.220Z",
+      "revokedAt": null
+    },
+    {
+      "id": "ses_2e32c4bb535a1839",
+      "userId": "usr_1942dc207c73e6a2",
+      "token": "UsB1PMs9Mfexi046AjdjyYAdTWJh-t4r92DL9l9wMzA",
+      "device": "Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.8457",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T19:34:16.209Z",
+      "lastSeenAt": "2026-06-30T19:34:16.209Z",
+      "revokedAt": "2026-06-30T19:34:16.282Z"
+    },
+    {
+      "id": "ses_ae4f557973c72808",
+      "userId": "usr_1942dc207c73e6a2",
+      "token": "ZOdCsQCzdCtKEGFvH9xA1wYKlATzqrYOF8oGD3WNnPw",
+      "device": "Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.8457",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T19:34:16.319Z",
+      "lastSeenAt": "2026-06-30T19:34:16.319Z",
+      "revokedAt": null
+    },
+    {
+      "id": "ses_2b9259acbbd3acb3",
+      "userId": "usr_e6f60a8e82f80a88",
+      "token": "kqvV2GpEdxp-STJNQqzJT_4OaIaZETD02VeKbPoXFGc",
+      "device": "Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.8457",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T19:34:37.625Z",
+      "lastSeenAt": "2026-06-30T19:34:37.691Z",
+      "revokedAt": null
+    },
+    {
+      "id": "ses_c049c318bf678d5d",
+      "userId": "usr_013208645887655b",
+      "token": "nCQ83tnR-U-l_7qGfi1VeRfiE3FoCr03a-2_TulO4Y0",
+      "device": "Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.8457",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T19:34:37.682Z",
+      "lastSeenAt": "2026-06-30T19:34:37.682Z",
+      "revokedAt": null
+    },
+    {
+      "id": "ses_8cc5e96c95eafcbe",
+      "userId": "usr_demo",
+      "token": "y8nH9wBcR9H5LlzklmxAysFoVJo2I5njjFMUqLWnJcY",
+      "device": "Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.8457",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T19:40:07.882Z",
+      "lastSeenAt": "2026-06-30T19:40:07.914Z",
+      "revokedAt": "2026-07-01T11:38:04.216Z"
+    },
+    {
+      "id": "ses_ea8ecc72b34ab944",
+      "userId": "usr_demo",
+      "token": "wUXAtoFtjhstwA6CIoLyvcapO6U4SGfkMRsS-0zoGwI",
+      "device": "Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.8457",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T19:40:33.731Z",
+      "lastSeenAt": "2026-06-30T19:40:33.823Z",
+      "revokedAt": "2026-07-01T11:38:04.216Z"
+    },
+    {
+      "id": "ses_c271194cc2701adf",
+      "userId": "usr_demo",
+      "token": "zwNgk85MJFkGOSdWf_e8RNqq8WSZ-P6x0lKULllGL04",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 OPR/132.0.0.0 (Edition Yx GX)",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T19:50:48.737Z",
+      "lastSeenAt": "2026-06-30T19:50:48.753Z",
+      "revokedAt": "2026-07-01T11:38:04.216Z"
+    },
+    {
+      "id": "ses_fcd1d66b726b64da",
+      "userId": "usr_9c77f4afc1fe6316",
+      "token": "vM9GMyUH_p9AY6z_K_6Xqc8mB5Lz_AlDtqwADfFRv_w",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 OPR/132.0.0.0 (Edition Yx GX)",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T19:51:03.406Z",
+      "lastSeenAt": "2026-06-30T19:52:02.521Z",
+      "revokedAt": null
+    },
+    {
+      "id": "ses_75d8c9ec48931eec",
+      "userId": "usr_demo",
+      "token": "WoK6u5Gaujksqo4h0ew0H0qQRv5hvi3b69VkWphfEKM",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 OPR/132.0.0.0 (Edition Yx GX)",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T20:32:17.356Z",
+      "lastSeenAt": "2026-06-30T21:31:45.711Z",
+      "revokedAt": "2026-06-30T21:31:45.711Z"
+    },
+    {
+      "id": "ses_226a75e8ed135c47",
+      "userId": "usr_demo",
+      "token": "1KnkKByqy6_b0VyU-pD0ri1IRaKTm3TScTJNjqhJT0k",
+      "device": "curl/8.19.0",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T20:55:40.736Z",
+      "lastSeenAt": "2026-06-30T20:55:40.801Z",
+      "revokedAt": "2026-07-01T11:38:04.216Z"
+    },
+    {
+      "id": "ses_35c29cd3d759efcb",
+      "userId": "usr_a751e071c345610b",
+      "token": "U4EZhBQJhYRg2iIh_mKi41wqotfSnuTTdkhxoJqwVdc",
+      "device": "curl/8.19.0",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T21:41:02.008Z",
+      "lastSeenAt": "2026-06-30T21:41:02.008Z",
+      "revokedAt": null
+    },
+    {
+      "id": "ses_84a023afbc17f8cd",
+      "userId": "usr_demo",
+      "token": "RFDMYi9V4ocM1AFkqxFk4nRG3OxJy0O9HcDyK1_imtA",
+      "device": "curl/8.19.0",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-06-30T21:45:55.872Z",
+      "lastSeenAt": "2026-06-30T21:45:55.911Z",
+      "revokedAt": "2026-07-01T11:38:04.216Z"
+    },
+    {
+      "id": "ses_fd6edc6c89a0f6e2",
+      "userId": "usr_0e4ab4321e3ce7a4",
+      "token": "O1z19DqKl0cy5Ck4Ty4ZB3ze_Ev5LByZCYU8ns5yOu8",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 OPR/132.0.0.0 (Edition Yx GX)",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-07-01T11:25:39.822Z",
+      "lastSeenAt": "2026-07-01T11:26:46.089Z",
+      "revokedAt": "2026-07-01T11:26:46.089Z"
+    },
+    {
+      "id": "ses_ad847d6ff6096f83",
+      "userId": "usr_bde1ad2d7cf42c41",
+      "token": "Do9fpfOqUcc6gsCCwzrNkZO6KIbKNuzT1n2JFcXWO5Q",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 OPR/132.0.0.0 (Edition Yx GX)",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-07-01T11:27:27.984Z",
+      "lastSeenAt": "2026-07-01T11:55:59.702Z",
+      "revokedAt": "2026-07-01T11:55:59.702Z"
+    },
+    {
+      "id": "ses_035b006b7f005f01",
+      "userId": "usr_demo",
+      "token": "TMnU_xZc_GzN8BwRZeLFrkVefM-q2BH242oiO6rGbRE",
+      "device": "curl/8.19.0",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-07-01T11:38:04.217Z",
+      "lastSeenAt": "2026-07-01T11:38:04.217Z",
+      "revokedAt": null
+    },
+    {
+      "id": "ses_083fb275d051af1c",
+      "userId": "usr_demo",
+      "token": "wq88Ug1we2XU09DO8W6SF1qVEMsylj6P-mzleDWd0hI",
+      "device": "curl/8.19.0",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-07-01T11:43:53.268Z",
+      "lastSeenAt": "2026-07-01T11:43:53.323Z",
+      "revokedAt": null
+    },
+    {
+      "id": "ses_c86ce2dca137a37e",
+      "userId": "usr_729337299f6a76ab",
+      "token": "43dH4woDblNvVNGGwixkweNPvH68gF8ehqNy-nux1jk",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 OPR/132.0.0.0 (Edition Yx GX)",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-07-01T11:56:51.643Z",
+      "lastSeenAt": "2026-07-02T20:13:34.914Z",
+      "revokedAt": "2026-07-02T20:13:34.914Z"
+    },
+    {
+      "id": "ses_a18545e7e1e231e4",
+      "userId": "usr_bde1ad2d7cf42c41",
+      "token": "hZKwJ3XAyYjmCD2oJDFsntDJGD_JDRifisNf4W24Wbs",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 OPR/132.0.0.0 (Edition Yx GX)",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-07-02T20:28:13.085Z",
+      "lastSeenAt": "2026-07-02T20:29:25.078Z",
+      "revokedAt": "2026-07-02T20:29:25.078Z"
+    },
+    {
+      "id": "ses_e602227cebe02eaf",
+      "userId": "usr_bde1ad2d7cf42c41",
+      "token": "c95XQcNTJ8c-M1UM_vLTrfCX95XHJqdMFF6eF4bMTHk",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 OPR/132.0.0.0 (Edition Yx GX)",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-07-02T20:49:17.571Z",
+      "lastSeenAt": "2026-07-02T20:53:47.602Z",
+      "revokedAt": "2026-07-02T20:53:47.602Z"
+    },
+    {
+      "id": "ses_03b9210a4671f7de",
+      "userId": "usr_demo",
+      "token": "srcpbxsIcn6aFbrKfp5k8yMHucrYXuwrXUDjjc6_6lk",
+      "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Claude/1.18286.0 Chrome/148.0.7778.271 Electron/42.5.1 Safari/537.36 MSIX",
+      "ip": "::ffff:127.0.0.1",
+      "createdAt": "2026-07-07T20:08:53.973Z",
+      "lastSeenAt": "2026-07-07T20:18:00.750Z",
+      "revokedAt": null
+    }
+  ],
+  "authCodes": [],
+  "contacts": [
+    {
+      "ownerId": "usr_demo",
+      "userId": "usr_anna",
+      "favorite": false,
+      "blocked": false,
+      "tags": [
+        "design"
+      ],
+      "createdAt": "2026-06-30T18:59:47.315Z"
+    },
+    {
+      "ownerId": "usr_demo",
+      "userId": "usr_marat",
+      "favorite": false,
+      "blocked": false,
+      "tags": [
+        "backend"
+      ],
+      "createdAt": "2026-06-30T18:59:47.315Z"
+    },
+    {
+      "ownerId": "usr_demo",
+      "userId": "usr_lena",
+      "favorite": false,
+      "blocked": false,
+      "tags": [
+        "channels"
+      ],
+      "createdAt": "2026-06-30T18:59:47.315Z"
+    }
+  ],
+  "chats": [
+    {
+      "id": "chat_anna",
+      "type": "direct",
+      "title": "Анна Соколова",
+      "description": "Личная переписка",
+      "avatar": "/assets/avatars/ru/png_purp/01_a.png",
+      "members": [
+        "usr_demo",
+        "usr_anna"
+      ],
+      "admins": [],
+      "ownerId": null,
+      "isPublic": false,
+      "inviteLink": null,
+      "pinnedMessageIds": [],
+      "mutedBy": [],
+      "archivedBy": [],
+      "folders": {
+        "usr_demo": "Закрепленные"
+      },
+      "createdAt": "2026-06-30T18:59:47.315Z",
+      "updatedAt": "2026-06-30T21:01:14.087Z",
+      "pinnedBy": []
+    },
+    {
+      "id": "chat_product",
+      "type": "group",
+      "title": "Команда продукта",
+      "description": "Планирование MVP, дизайн, backend и релизы",
+      "avatar": "/assets/avatars/ru/png_darkblue/11_k.png",
+      "members": [
+        "usr_demo",
+        "usr_anna",
+        "usr_marat"
+      ],
+      "admins": [
+        "usr_demo",
+        "usr_marat"
+      ],
+      "ownerId": "usr_demo",
+      "isPublic": false,
+      "inviteLink": "https://twiftyz.local/invite/product",
+      "pinnedMessageIds": [],
+      "mutedBy": [],
+      "archivedBy": [],
+      "folders": {
+        "usr_demo": "Работа"
+      },
+      "createdAt": "2026-06-30T18:59:47.315Z",
+      "updatedAt": "2026-06-30T19:17:22.624Z",
+      "moderation": {
+        "autoModeration": true,
+        "welcomeMessage": "Добро пожаловать в рабочую группу Twiftyz."
+      },
+      "pinnedBy": []
+    },
+    {
+      "id": "chat_channel",
+      "type": "channel",
+      "title": "Twiftyz Updates",
+      "description": "Публичный канал обновлений продукта",
+      "avatar": "/assets/avatars/eng/png_blue/T.png",
+      "members": [
+        "usr_demo",
+        "usr_anna",
+        "usr_marat",
+        "usr_lena"
+      ],
+      "admins": [
+        "usr_demo",
+        "usr_lena"
+      ],
+      "ownerId": "usr_demo",
+      "isPublic": true,
+      "inviteLink": "https://twiftyz.local/channel/updates",
+      "pinnedMessageIds": [],
+      "mutedBy": [],
+      "archivedBy": [],
+      "folders": {
+        "usr_demo": "Каналы"
+      },
+      "createdAt": "2026-06-30T18:59:47.315Z",
+      "updatedAt": "2026-06-30T21:30:26.221Z",
+      "analytics": {
+        "views": 12840,
+        "reactions": 724,
+        "subscribersDelta": 14
+      },
+      "commentsEnabled": true,
+      "pinnedBy": []
+    },
+    {
+      "id": "chat_51a4f75df6b57768",
+      "type": "group",
+      "title": "asx",
+      "description": "Новая приватная группа",
+      "avatar": "/assets/avatars/eng/png_teal/A.png",
+      "members": [
+        "usr_demo",
+        "usr_anna",
+        "usr_marat"
+      ],
+      "admins": [
+        "usr_demo"
+      ],
+      "ownerId": "usr_demo",
+      "isPublic": false,
+      "inviteLink": "https://twiftyz.local/invite/dc240c1b",
+      "pinnedMessageIds": [],
+      "mutedBy": [],
+      "archivedBy": [],
+      "folders": {
+        "usr_demo": "Работа"
+      },
+      "createdAt": "2026-06-30T19:17:29.075Z",
+      "updatedAt": "2026-06-30T19:17:29.075Z",
+      "moderation": {
+        "autoModeration": true,
+        "welcomeMessage": "Добро пожаловать"
+      },
+      "pinnedBy": []
+    },
+    {
+      "id": "chat_44b930c615aa7ae4",
+      "type": "direct",
+      "title": "Twiftyz",
+      "description": "Служебный чат: коды входа и уведомления",
+      "avatar": "/assets/logo/twiftyz-mark-2a.png",
+      "members": [
+        "usr_demo",
+        "usr_twiftyz_service"
+      ],
+      "admins": [],
+      "ownerId": null,
+      "isPublic": false,
+      "inviteLink": null,
+      "pinnedMessageIds": [],
+      "mutedBy": [],
+      "archivedBy": [],
+      "folders": {},
+      "service": true,
+      "createdAt": "2026-06-30T23:08:37.212Z",
+      "updatedAt": "2026-07-07T20:08:43.398Z",
+      "pinnedBy": []
+    },
+    {
+      "id": "chat_695dd69187bd9682",
+      "type": "direct",
+      "title": "Twiftyz",
+      "description": "Служебный чат: коды входа и уведомления",
+      "avatar": "/assets/logo/twiftyz-mark-2a.png",
+      "members": [
+        "usr_0e4ab4321e3ce7a4",
+        "usr_twiftyz_service"
+      ],
+      "admins": [],
+      "ownerId": null,
+      "isPublic": false,
+      "inviteLink": null,
+      "pinnedMessageIds": [],
+      "mutedBy": [],
+      "archivedBy": [],
+      "folders": {},
+      "service": true,
+      "createdAt": "2026-07-01T11:25:39.822Z",
+      "updatedAt": "2026-07-01T11:25:59.784Z",
+      "pinnedBy": []
+    },
+    {
+      "id": "chat_8e8d4e0d4646ab5d",
+      "type": "direct",
+      "title": "Twiftyz",
+      "description": "Служебный чат: коды входа и уведомления",
+      "avatar": "/assets/logo/twiftyz-mark-2a.png",
+      "members": [
+        "usr_bde1ad2d7cf42c41",
+        "usr_twiftyz_service"
+      ],
+      "admins": [],
+      "ownerId": null,
+      "isPublic": false,
+      "inviteLink": null,
+      "pinnedMessageIds": [],
+      "mutedBy": [],
+      "archivedBy": [],
+      "folders": {},
+      "service": true,
+      "createdAt": "2026-07-01T11:27:27.984Z",
+      "updatedAt": "2026-07-02T20:28:13.085Z",
+      "pinnedBy": []
+    },
+    {
+      "id": "chat_2018b139d6ac3af6",
+      "type": "channel",
+      "title": "тесттест",
+      "description": "Новый канал",
+      "avatar": "/assets/avatars/ru/png_purp/19_t.png",
+      "members": [
+        "usr_bde1ad2d7cf42c41",
+        "usr_729337299f6a76ab"
+      ],
+      "admins": [
+        "usr_bde1ad2d7cf42c41"
+      ],
+      "ownerId": "usr_bde1ad2d7cf42c41",
+      "isPublic": true,
+      "inviteLink": "https://twiftyz.local/invite/8e4f1675",
+      "pinnedMessageIds": [],
+      "mutedBy": [],
+      "archivedBy": [],
+      "folders": {
+        "usr_bde1ad2d7cf42c41": "Каналы"
+      },
+      "createdAt": "2026-07-01T11:55:36.117Z",
+      "updatedAt": "2026-07-01T11:56:59.440Z",
+      "analytics": {
+        "views": 0,
+        "reactions": 0,
+        "subscribersDelta": 1
+      },
+      "commentsEnabled": true,
+      "pinnedBy": [
+        "usr_bde1ad2d7cf42c41"
+      ]
+    },
+    {
+      "id": "chat_eb8de61535c61c3c",
+      "type": "direct",
+      "title": "Twiftyz",
+      "description": "Служебный чат: коды входа и уведомления",
+      "avatar": "/assets/logo/twiftyz-mark-2a.png",
+      "members": [
+        "usr_729337299f6a76ab",
+        "usr_twiftyz_service"
+      ],
+      "admins": [],
+      "ownerId": null,
+      "isPublic": false,
+      "inviteLink": null,
+      "pinnedMessageIds": [],
+      "mutedBy": [],
+      "archivedBy": [],
+      "folders": {},
+      "service": true,
+      "createdAt": "2026-07-01T11:56:51.643Z",
+      "updatedAt": "2026-07-01T11:56:51.643Z",
+      "pinnedBy": []
+    },
+    {
+      "id": "chat_75885ca20a4383f0",
+      "type": "group",
+      "title": "asf",
+      "description": "Новая группа",
+      "avatar": "/assets/avatars/eng/png_pink/A.png",
+      "members": [
+        "usr_729337299f6a76ab"
+      ],
+      "admins": [
+        "usr_729337299f6a76ab"
+      ],
+      "ownerId": "usr_729337299f6a76ab",
+      "isPublic": false,
+      "inviteLink": "https://twiftyz.local/invite/8c9db473",
+      "pinnedMessageIds": [],
+      "mutedBy": [],
+      "archivedBy": [],
+      "folders": {
+        "usr_729337299f6a76ab": "Работа"
+      },
+      "createdAt": "2026-07-02T20:10:08.730Z",
+      "updatedAt": "2026-07-02T20:10:08.730Z",
+      "moderation": {
+        "autoModeration": true,
+        "welcomeMessage": "Добро пожаловать"
+      },
+      "pinnedBy": []
+    },
+    {
+      "id": "chat_ba6645112df6dddd",
+      "type": "channel",
+      "title": "ghjk",
+      "description": "Новый канал",
+      "avatar": "/assets/avatars/eng/png_pink/G.png",
+      "members": [
+        "usr_729337299f6a76ab"
+      ],
+      "admins": [
+        "usr_729337299f6a76ab"
+      ],
+      "ownerId": "usr_729337299f6a76ab",
+      "isPublic": true,
+      "inviteLink": "https://twiftyz.local/invite/196e8cbc",
+      "pinnedMessageIds": [],
+      "mutedBy": [],
+      "archivedBy": [],
+      "folders": {
+        "usr_729337299f6a76ab": "Каналы"
+      },
+      "createdAt": "2026-07-02T20:10:40.833Z",
+      "updatedAt": "2026-07-02T20:12:00.823Z",
+      "analytics": {
+        "views": 0,
+        "reactions": 0,
+        "subscribersDelta": 0
+      },
+      "commentsEnabled": true,
+      "postAsUser": false,
+      "postAsUserAllowed": [],
+      "pinnedBy": []
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_anna_1",
+      "chatId": "chat_anna",
+      "authorId": "usr_anna",
+      "kind": "text",
+      "text": "Привет. Я собрала первый экран мессенджера: список чатов, поиск и панель профиля.",
+      "attachments": [],
+      "replyTo": null,
+      "reactions": {
+        "👍": [
+          "usr_demo"
+        ]
+      },
+      "receipts": {
+        "usr_demo": "read",
+        "usr_anna": "read"
+      },
+      "status": "read",
+      "isPinned": false,
+      "createdAt": "2026-06-30T18:59:47.315Z",
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_anna_2",
+      "chatId": "chat_anna",
+      "authorId": "usr_demo",
+      "kind": "text",
+      "text": "Сообщение удалено",
+      "attachments": [],
+      "replyTo": "msg_anna_1",
+      "reactions": {},
+      "receipts": {
+        "usr_demo": "read",
+        "usr_anna": "read"
+      },
+      "status": "read",
+      "isPinned": false,
+      "createdAt": "2026-06-30T18:59:47.315Z",
+      "editedAt": null,
+      "deletedAt": "2026-06-30T21:02:04.354Z",
+      "deletedFor": []
+    },
+    {
+      "id": "msg_product_1",
+      "chatId": "chat_product",
+      "authorId": "usr_marat",
+      "kind": "file",
+      "text": "Сообщение удалено",
+      "attachments": [],
+      "replyTo": null,
+      "reactions": {
+        "🔥": [
+          "usr_demo",
+          "usr_anna"
+        ]
+      },
+      "receipts": {
+        "usr_demo": "read",
+        "usr_anna": "delivered",
+        "usr_marat": "read"
+      },
+      "status": "delivered",
+      "isPinned": false,
+      "createdAt": "2026-06-30T18:59:47.315Z",
+      "editedAt": null,
+      "deletedAt": "2026-06-30T21:01:22.230Z",
+      "deletedFor": []
+    },
+    {
+      "id": "msg_channel_1",
+      "chatId": "chat_channel",
+      "authorId": "usr_lena",
+      "kind": "post",
+      "text": "Twiftyz MVP получил базовый web-клиент, REST API, WebSocket-синхронизацию и админ-сводку.",
+      "attachments": [],
+      "replyTo": null,
+      "reactions": {
+        "🚀": [
+          "usr_demo",
+          "usr_anna",
+          "usr_marat"
+        ],
+        "OK": [
+          "usr_demo"
+        ]
+      },
+      "receipts": {
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-06-30T18:59:47.315Z",
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_7687cb0a06bcea43",
+      "chatId": "chat_anna",
+      "authorId": "usr_demo",
+      "kind": "text",
+      "text": "Сообщение удалено",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-06-30T19:03:12.897Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": "2026-06-30T21:02:00.799Z",
+      "deletedFor": []
+    },
+    {
+      "id": "msg_806e135076640b74",
+      "chatId": "chat_anna",
+      "authorId": "usr_demo",
+      "kind": "text",
+      "text": "Сообщение удалено",
+      "attachments": [],
+      "replyTo": "msg_7687cb0a06bcea43",
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-06-30T19:16:37.495Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": "2026-06-30T21:02:01.682Z",
+      "deletedFor": []
+    },
+    {
+      "id": "msg_de2df7e72424bc80",
+      "chatId": "chat_product",
+      "authorId": "usr_demo",
+      "kind": "file",
+      "text": "Сообщение удалено",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-06-30T19:17:18.837Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": "2026-06-30T21:01:25.685Z",
+      "deletedFor": []
+    },
+    {
+      "id": "msg_f993a37598056bfa",
+      "chatId": "chat_product",
+      "authorId": "usr_demo",
+      "kind": "file",
+      "text": "Сообщение удалено",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-06-30T19:17:20.909Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": "2026-06-30T21:01:26.890Z",
+      "deletedFor": []
+    },
+    {
+      "id": "msg_fe64792d665720ca",
+      "chatId": "chat_product",
+      "authorId": "usr_demo",
+      "kind": "text",
+      "text": "Сообщение удалено",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-06-30T19:17:22.624Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": "2026-07-07T20:17:50.742Z",
+      "deletedFor": []
+    },
+    {
+      "id": "msg_f5d713b322732580",
+      "chatId": "chat_anna",
+      "authorId": "usr_demo",
+      "kind": "file",
+      "text": "Сообщение удалено",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-06-30T21:01:14.087Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": "2026-06-30T21:02:02.633Z",
+      "deletedFor": []
+    },
+    {
+      "id": "msg_c1ae43989b452ab1",
+      "chatId": "chat_channel",
+      "authorId": "usr_demo",
+      "kind": "file",
+      "text": "Прикреплен файл",
+      "attachments": [
+        {
+          "id": "file_9ade88877c32ea7b",
+          "ownerId": "usr_demo",
+          "chatId": "chat_channel",
+          "name": "Receipt.pdf",
+          "storedName": "file_9ade88877c32ea7b_Receipt.pdf",
+          "type": "application/pdf",
+          "size": 60096,
+          "scanStatus": "clean",
+          "progress": 100,
+          "createdAt": "2026-06-30T21:01:38.308Z",
+          "url": "/api/files/file_9ade88877c32ea7b/download"
+        }
+      ],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-06-30T21:01:38.312Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_b9d83441edd41e0a",
+      "chatId": "chat_channel",
+      "authorId": "usr_demo",
+      "kind": "file",
+      "text": "Прикрепил файл",
+      "attachments": [
+        {
+          "id": "file_0912e30b1561e939",
+          "ownerId": "usr_demo",
+          "chatId": "chat_channel",
+          "name": "Receipt (1).pdf",
+          "storedName": "file_0912e30b1561e939_Receipt (1).pdf",
+          "type": "application/pdf",
+          "size": 60096,
+          "scanStatus": "clean",
+          "progress": 100,
+          "createdAt": "2026-06-30T21:30:11.141Z",
+          "url": "/api/files/file_0912e30b1561e939/download"
+        }
+      ],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-06-30T21:30:11.146Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_db47f8608b1fd770",
+      "chatId": "chat_channel",
+      "authorId": "usr_demo",
+      "kind": "post",
+      "text": "Как дела?",
+      "attachments": [],
+      "replyTo": "msg_b9d83441edd41e0a",
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-06-30T21:30:26.221Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_8e85522716c8d479",
+      "chatId": "chat_44b930c615aa7ae4",
+      "authorId": "usr_twiftyz_service",
+      "kind": "text",
+      "text": "Код для входа: 933604\nНикому не сообщайте этот код. Он действует 10 минут.",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_twiftyz_service": "read",
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-06-30T23:08:37.212Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_7ff2b8fadb06929e",
+      "chatId": "chat_44b930c615aa7ae4",
+      "authorId": "usr_twiftyz_service",
+      "kind": "text",
+      "text": "Код для входа: 412100\nНикому не сообщайте этот код. Он действует 10 минут.",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_twiftyz_service": "read",
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-06-30T23:09:21.367Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_d7f8e9ab550d8a5d",
+      "chatId": "chat_695dd69187bd9682",
+      "authorId": "usr_twiftyz_service",
+      "kind": "text",
+      "text": "Добро пожаловать в Twiftyz, sup! Это служебный чат — сюда приходят коды для входа на новых устройствах.",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_twiftyz_service": "read",
+        "usr_0e4ab4321e3ce7a4": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-07-01T11:25:39.822Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_85577b5e77c29534",
+      "chatId": "chat_695dd69187bd9682",
+      "authorId": "usr_0e4ab4321e3ce7a4",
+      "kind": "file",
+      "text": "Сообщение удалено",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_0e4ab4321e3ce7a4": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-07-01T11:25:59.784Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": "2026-07-01T11:26:02.179Z",
+      "deletedFor": []
+    },
+    {
+      "id": "msg_c6d77306842d186e",
+      "chatId": "chat_8e8d4e0d4646ab5d",
+      "authorId": "usr_twiftyz_service",
+      "kind": "text",
+      "text": "Добро пожаловать в Twiftyz, Toro! Это служебный чат — сюда приходят коды для входа на новых устройствах.",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_twiftyz_service": "read",
+        "usr_bde1ad2d7cf42c41": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-07-01T11:27:27.984Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_b529ff0a2c6f7b8b",
+      "chatId": "chat_44b930c615aa7ae4",
+      "authorId": "usr_twiftyz_service",
+      "kind": "text",
+      "text": "Пароль изменён. Если это были не вы — немедленно смените пароль и завершите чужие сессии в настройках.",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_twiftyz_service": "read",
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-07-01T11:38:04.217Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_7e42fd54734f7cc2",
+      "chatId": "chat_44b930c615aa7ae4",
+      "authorId": "usr_twiftyz_service",
+      "kind": "text",
+      "text": "Код для входа: 227399\nНикому не сообщайте этот код. Он действует 10 минут.",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_twiftyz_service": "read",
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-07-01T11:38:04.311Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_888ae68a79d9e8e2",
+      "chatId": "chat_44b930c615aa7ae4",
+      "authorId": "usr_twiftyz_service",
+      "kind": "text",
+      "text": "Код для входа: 622294\nНикому не сообщайте этот код. Он действует 10 минут.",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_twiftyz_service": "read",
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-07-01T11:43:53.120Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_c567893b1628c603",
+      "chatId": "chat_44b930c615aa7ae4",
+      "authorId": "usr_twiftyz_service",
+      "kind": "text",
+      "text": "Код для входа: 309164\nНикому не сообщайте этот код. Он действует 10 минут.",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_twiftyz_service": "read",
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-07-01T11:44:46.422Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_d8e3c24637a374de",
+      "chatId": "chat_2018b139d6ac3af6",
+      "authorId": "usr_bde1ad2d7cf42c41",
+      "kind": "post",
+      "text": "йойо",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_bde1ad2d7cf42c41": "read",
+        "usr_729337299f6a76ab": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-07-01T11:55:43.119Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_8aede7df058d0e39",
+      "chatId": "chat_44b930c615aa7ae4",
+      "authorId": "usr_twiftyz_service",
+      "kind": "text",
+      "text": "Код для входа: 428660\nНикому не сообщайте этот код. Он действует 10 минут.",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_twiftyz_service": "read",
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-07-01T11:56:01.244Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_74546987e29a14b0",
+      "chatId": "chat_44b930c615aa7ae4",
+      "authorId": "usr_twiftyz_service",
+      "kind": "text",
+      "text": "Код для входа: 790279\nНикому не сообщайте этот код. Он действует 10 минут.",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_twiftyz_service": "read",
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-07-01T11:56:05.405Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_1e50fe6fb7c7d9e7",
+      "chatId": "chat_eb8de61535c61c3c",
+      "authorId": "usr_twiftyz_service",
+      "kind": "text",
+      "text": "Добро пожаловать в Twiftyz, фцыаф! Это служебный чат — сюда приходят коды для входа на новых устройствах.",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_twiftyz_service": "read",
+        "usr_729337299f6a76ab": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-07-01T11:56:51.643Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_244e4d2f4867afca",
+      "chatId": "chat_44b930c615aa7ae4",
+      "authorId": "usr_twiftyz_service",
+      "kind": "text",
+      "text": "Код для входа: 859469\nНикому не сообщайте этот код. Он действует 10 минут.",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_twiftyz_service": "read",
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-07-01T22:27:09.237Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_c4c8ea584c01806a",
+      "chatId": "chat_ba6645112df6dddd",
+      "authorId": "usr_729337299f6a76ab",
+      "displayAs": "channel",
+      "kind": "file",
+      "text": "",
+      "attachments": [
+        {
+          "id": "file_cb3744b63172c2e3",
+          "ownerId": "usr_729337299f6a76ab",
+          "chatId": "chat_ba6645112df6dddd",
+          "name": "twiftyz-mark-2a.png",
+          "storedName": "file_cb3744b63172c2e3_twiftyz-mark-2a.png",
+          "type": "image/png",
+          "size": 232512,
+          "scanStatus": "clean",
+          "progress": 100,
+          "createdAt": "2026-07-02T20:12:00.817Z",
+          "url": "/api/files/file_cb3744b63172c2e3/download"
+        }
+      ],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_729337299f6a76ab": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-07-02T20:12:00.823Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_688be1764983bc98",
+      "chatId": "chat_8e8d4e0d4646ab5d",
+      "authorId": "usr_twiftyz_service",
+      "kind": "text",
+      "text": "Пароль изменён. Если это были не вы — немедленно смените пароль и завершите чужие сессии в настройках.",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_twiftyz_service": "read",
+        "usr_bde1ad2d7cf42c41": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-07-02T20:28:13.085Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    },
+    {
+      "id": "msg_8cfead18fd992fd7",
+      "chatId": "chat_44b930c615aa7ae4",
+      "authorId": "usr_twiftyz_service",
+      "kind": "text",
+      "text": "Код для входа: 108999\nНикому не сообщайте этот код. Он действует 10 минут.",
+      "attachments": [],
+      "replyTo": null,
+      "formatting": {},
+      "reactions": {},
+      "receipts": {
+        "usr_twiftyz_service": "read",
+        "usr_demo": "read"
+      },
+      "status": "sent",
+      "isPinned": false,
+      "createdAt": "2026-07-07T20:08:43.398Z",
+      "scheduledAt": null,
+      "editedAt": null,
+      "deletedAt": null,
+      "deletedFor": []
+    }
+  ],
+  "calls": [
+    {
+      "id": "call_14bced5e03d034f0",
+      "chatId": "chat_anna",
+      "type": "video",
+      "status": "ended",
+      "participants": [
+        "usr_demo",
+        "usr_anna"
+      ],
+      "startedBy": "usr_demo",
+      "startedAt": "2026-06-30T19:16:52.285Z",
+      "endedAt": "2026-06-30T21:02:23.099Z",
+      "quality": "Full HD",
+      "encrypted": true,
+      "recording": false
+    },
+    {
+      "id": "call_4c4c93bafd700b8f",
+      "chatId": "chat_anna",
+      "type": "video",
+      "status": "ended",
+      "participants": [
+        "usr_demo",
+        "usr_anna"
+      ],
+      "startedBy": "usr_demo",
+      "startedAt": "2026-06-30T19:16:47.662Z",
+      "endedAt": "2026-06-30T21:02:22.742Z",
+      "quality": "Full HD",
+      "encrypted": true,
+      "recording": false
+    },
+    {
+      "id": "call_acbd7694de96750c",
+      "chatId": "chat_anna",
+      "type": "voice",
+      "status": "ended",
+      "participants": [
+        "usr_demo",
+        "usr_anna"
+      ],
+      "startedBy": "usr_demo",
+      "startedAt": "2026-06-30T19:16:46.703Z",
+      "endedAt": "2026-06-30T21:02:22.403Z",
+      "quality": "HD",
+      "encrypted": true,
+      "recording": false
+    },
+    {
+      "id": "call_989bdf9fe81ff605",
+      "chatId": "chat_anna",
+      "type": "voice",
+      "status": "ended",
+      "participants": [
+        "usr_demo",
+        "usr_anna"
+      ],
+      "startedBy": "usr_demo",
+      "startedAt": "2026-06-30T19:16:43.954Z",
+      "endedAt": "2026-06-30T21:02:22.118Z",
+      "quality": "HD",
+      "encrypted": true,
+      "recording": false
+    },
+    {
+      "id": "call_seed",
+      "chatId": "chat_product",
+      "type": "voice",
+      "status": "ended",
+      "participants": [
+        "usr_demo",
+        "usr_anna",
+        "usr_marat"
+      ],
+      "startedBy": "usr_demo",
+      "startedAt": "2026-06-30T18:59:47.315Z",
+      "endedAt": "2026-06-30T18:59:47.315Z",
+      "quality": "HD",
+      "encrypted": true,
+      "recording": false
+    }
+  ],
+  "files": [
+    {
+      "id": "file_fdaab3fc6546a02b",
+      "ownerId": "usr_demo",
+      "chatId": "chat_product",
+      "name": "document-8829.pdf",
+      "type": "application/pdf",
+      "size": 420000,
+      "scanStatus": "clean",
+      "progress": 100,
+      "createdAt": "2026-06-30T19:17:18.832Z",
+      "url": "#"
+    },
+    {
+      "id": "file_fdaab3fc6546a02b",
+      "ownerId": "usr_demo",
+      "chatId": "chat_product",
+      "name": "document-8829.pdf",
+      "type": "application/pdf",
+      "size": 420000,
+      "scanStatus": "clean",
+      "createdAt": "2026-06-30T19:17:18.837Z",
+      "url": "#"
+    },
+    {
+      "id": "file_21172f7375d40daa",
+      "ownerId": "usr_demo",
+      "chatId": "chat_product",
+      "name": "document-0902.pdf",
+      "type": "application/pdf",
+      "size": 420000,
+      "scanStatus": "clean",
+      "progress": 100,
+      "createdAt": "2026-06-30T19:17:20.904Z",
+      "url": "#"
+    },
+    {
+      "id": "file_21172f7375d40daa",
+      "ownerId": "usr_demo",
+      "chatId": "chat_product",
+      "name": "document-0902.pdf",
+      "type": "application/pdf",
+      "size": 420000,
+      "scanStatus": "clean",
+      "createdAt": "2026-06-30T19:17:20.909Z",
+      "url": "#"
+    },
+    {
+      "id": "file_4d2cc3709d188748",
+      "ownerId": "usr_9c77f4afc1fe6316",
+      "chatId": "chat_b3a048b52b5bd343",
+      "name": "document-5722.pdf",
+      "type": "application/pdf",
+      "size": 420000,
+      "scanStatus": "clean",
+      "progress": 100,
+      "createdAt": "2026-06-30T19:51:25.725Z",
+      "url": "#"
+    },
+    {
+      "id": "file_4d2cc3709d188748",
+      "ownerId": "usr_9c77f4afc1fe6316",
+      "chatId": "chat_b3a048b52b5bd343",
+      "name": "document-5722.pdf",
+      "type": "application/pdf",
+      "size": 420000,
+      "scanStatus": "clean",
+      "createdAt": "2026-06-30T19:51:25.730Z",
+      "url": "#"
+    },
+    {
+      "id": "file_af4e341c5e4270f2",
+      "ownerId": "usr_demo",
+      "chatId": "chat_anna",
+      "name": "Receipt.pdf",
+      "storedName": "file_af4e341c5e4270f2_Receipt.pdf",
+      "type": "application/pdf",
+      "size": 60096,
+      "scanStatus": "clean",
+      "progress": 100,
+      "createdAt": "2026-06-30T21:01:14.082Z",
+      "url": "/api/files/file_af4e341c5e4270f2/download"
+    },
+    {
+      "id": "file_af4e341c5e4270f2",
+      "ownerId": "usr_demo",
+      "chatId": "chat_anna",
+      "name": "Receipt.pdf",
+      "type": "application/pdf",
+      "size": 60096,
+      "scanStatus": "clean",
+      "createdAt": "2026-06-30T21:01:14.087Z",
+      "url": "/api/files/file_af4e341c5e4270f2/download"
+    },
+    {
+      "id": "file_9ade88877c32ea7b",
+      "ownerId": "usr_demo",
+      "chatId": "chat_channel",
+      "name": "Receipt.pdf",
+      "storedName": "file_9ade88877c32ea7b_Receipt.pdf",
+      "type": "application/pdf",
+      "size": 60096,
+      "scanStatus": "clean",
+      "progress": 100,
+      "createdAt": "2026-06-30T21:01:38.308Z",
+      "url": "/api/files/file_9ade88877c32ea7b/download"
+    },
+    {
+      "id": "file_9ade88877c32ea7b",
+      "ownerId": "usr_demo",
+      "chatId": "chat_channel",
+      "name": "Receipt.pdf",
+      "type": "application/pdf",
+      "size": 60096,
+      "scanStatus": "clean",
+      "createdAt": "2026-06-30T21:01:38.312Z",
+      "url": "/api/files/file_9ade88877c32ea7b/download"
+    },
+    {
+      "id": "file_0912e30b1561e939",
+      "ownerId": "usr_demo",
+      "chatId": "chat_channel",
+      "name": "Receipt (1).pdf",
+      "storedName": "file_0912e30b1561e939_Receipt (1).pdf",
+      "type": "application/pdf",
+      "size": 60096,
+      "scanStatus": "clean",
+      "progress": 100,
+      "createdAt": "2026-06-30T21:30:11.141Z",
+      "url": "/api/files/file_0912e30b1561e939/download"
+    },
+    {
+      "id": "file_0912e30b1561e939",
+      "ownerId": "usr_demo",
+      "chatId": "chat_channel",
+      "name": "Receipt (1).pdf",
+      "type": "application/pdf",
+      "size": 60096,
+      "scanStatus": "clean",
+      "createdAt": "2026-06-30T21:30:11.146Z",
+      "url": "/api/files/file_0912e30b1561e939/download"
+    },
+    {
+      "id": "file_2e79248cc453da04",
+      "ownerId": "usr_0e4ab4321e3ce7a4",
+      "chatId": "chat_695dd69187bd9682",
+      "name": "AnyDesk.exe",
+      "storedName": "file_2e79248cc453da04_AnyDesk.exe",
+      "type": "application/x-msdownload",
+      "size": 3670480,
+      "scanStatus": "clean",
+      "progress": 100,
+      "createdAt": "2026-07-01T11:25:59.778Z",
+      "url": "/api/files/file_2e79248cc453da04/download"
+    },
+    {
+      "id": "file_2e79248cc453da04",
+      "ownerId": "usr_0e4ab4321e3ce7a4",
+      "chatId": "chat_695dd69187bd9682",
+      "name": "AnyDesk.exe",
+      "type": "application/x-msdownload",
+      "size": 3670480,
+      "scanStatus": "clean",
+      "createdAt": "2026-07-01T11:25:59.784Z",
+      "url": "/api/files/file_2e79248cc453da04/download"
+    },
+    {
+      "id": "file_cb3744b63172c2e3",
+      "ownerId": "usr_729337299f6a76ab",
+      "chatId": "chat_ba6645112df6dddd",
+      "name": "twiftyz-mark-2a.png",
+      "storedName": "file_cb3744b63172c2e3_twiftyz-mark-2a.png",
+      "type": "image/png",
+      "size": 232512,
+      "scanStatus": "clean",
+      "progress": 100,
+      "createdAt": "2026-07-02T20:12:00.817Z",
+      "url": "/api/files/file_cb3744b63172c2e3/download"
+    },
+    {
+      "id": "file_cb3744b63172c2e3",
+      "ownerId": "usr_729337299f6a76ab",
+      "chatId": "chat_ba6645112df6dddd",
+      "name": "twiftyz-mark-2a.png",
+      "type": "image/png",
+      "size": 232512,
+      "scanStatus": "clean",
+      "createdAt": "2026-07-02T20:12:00.823Z",
+      "url": "/api/files/file_cb3744b63172c2e3/download"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "ntf_41e71d6bfade1782",
+      "userId": "usr_demo",
+      "type": "security",
+      "title": "Новый вход",
+      "text": "Создана сессия: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+      "read": true,
+      "createdAt": "2026-07-07T20:08:53.973Z"
+    },
+    {
+      "id": "ntf_fc3b95169ff87d2f",
+      "userId": "usr_bde1ad2d7cf42c41",
+      "type": "security",
+      "title": "Новый вход",
+      "text": "Создана сессия: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+      "read": true,
+      "createdAt": "2026-07-02T20:49:17.571Z"
+    },
+    {
+      "id": "ntf_6faa922a1a58d4d5",
+      "userId": "usr_bde1ad2d7cf42c41",
+      "type": "security",
+      "title": "Пароль изменён",
+      "text": "Пароль вашего аккаунта был сброшен.",
+      "read": true,
+      "createdAt": "2026-07-02T20:28:13.086Z"
+    },
+    {
+      "id": "ntf_63c16f8f9bb113ef",
+      "userId": "usr_729337299f6a76ab",
+      "type": "security",
+      "title": "Аккаунт создан",
+      "text": "Создана сессия: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+      "read": true,
+      "createdAt": "2026-07-01T11:56:51.643Z"
+    },
+    {
+      "id": "ntf_f64b99d5ecf4d237",
+      "userId": "usr_e1bed496b4547f74",
+      "type": "security",
+      "title": "Аккаунт создан",
+      "text": "Создана сессия: curl/8.19.0",
+      "read": false,
+      "createdAt": "2026-07-01T11:43:53.580Z"
+    },
+    {
+      "id": "ntf_cb47c059942eadae",
+      "userId": "usr_demo",
+      "type": "security",
+      "title": "Новый вход",
+      "text": "Создана сессия: curl/8.19.0",
+      "read": true,
+      "createdAt": "2026-07-01T11:43:53.268Z"
+    },
+    {
+      "id": "ntf_c9217e662bc2e591",
+      "userId": "usr_demo",
+      "type": "security",
+      "title": "Пароль изменён",
+      "text": "Пароль вашего аккаунта был сброшен.",
+      "read": true,
+      "createdAt": "2026-07-01T11:38:04.217Z"
+    },
+    {
+      "id": "ntf_774c68fb82521d08",
+      "userId": "usr_bde1ad2d7cf42c41",
+      "type": "security",
+      "title": "Аккаунт создан",
+      "text": "Создана сессия: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+      "read": true,
+      "createdAt": "2026-07-01T11:27:27.984Z"
+    },
+    {
+      "id": "ntf_3a34c344bb2c4c04",
+      "userId": "usr_twiftyz_service",
+      "type": "message",
+      "title": "Twiftyz",
+      "text": "sup port: Прикрепил файл",
+      "read": false,
+      "createdAt": "2026-07-01T11:25:59.784Z"
+    },
+    {
+      "id": "ntf_af5ed511f23a8bb1",
+      "userId": "usr_0e4ab4321e3ce7a4",
+      "type": "security",
+      "title": "Аккаунт создан",
+      "text": "Создана сессия: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+      "read": true,
+      "createdAt": "2026-07-01T11:25:39.822Z"
+    },
+    {
+      "id": "ntf_2ca49c5dab36fc2f",
+      "userId": "usr_825982dca7f18705",
+      "type": "security",
+      "title": "Аккаунт создан",
+      "text": "Создана сессия: curl/8.19.0",
+      "read": false,
+      "createdAt": "2026-06-30T23:08:37.419Z"
+    },
+    {
+      "id": "ntf_9cfad55d29619d39",
+      "userId": "usr_eb96a8b94ce1ece8",
+      "type": "security",
+      "title": "Новый вход",
+      "text": "Создана сессия: curl/8.19.0",
+      "read": false,
+      "createdAt": "2026-06-30T22:56:44.163Z"
+    },
+    {
+      "id": "ntf_a4b4517b6c773244",
+      "userId": "usr_eb96a8b94ce1ece8",
+      "type": "security",
+      "title": "Аккаунт создан",
+      "text": "Создана сессия: curl/8.19.0",
+      "read": false,
+      "createdAt": "2026-06-30T22:56:43.865Z"
+    },
+    {
+      "id": "ntf_651f9221f0b9b4c0",
+      "userId": "usr_demo",
+      "type": "security",
+      "title": "New login",
+      "text": "Session created: curl/8.19.0",
+      "read": true,
+      "createdAt": "2026-06-30T21:45:55.872Z"
+    },
+    {
+      "id": "ntf_c8df304267acf65d",
+      "userId": "usr_a751e071c345610b",
+      "type": "security",
+      "title": "Новый вход",
+      "text": "Создана сессия: curl/8.19.0",
+      "read": false,
+      "createdAt": "2026-06-30T21:41:02.008Z"
+    },
+    {
+      "id": "ntf_14c653605195dd34",
+      "userId": "usr_lena",
+      "type": "message",
+      "title": "Twiftyz Updates",
+      "text": "Илья Смирнов: Как дела?",
+      "read": false,
+      "createdAt": "2026-06-30T21:30:26.222Z"
+    },
+    {
+      "id": "ntf_e5adf4ab5be6fa87",
+      "userId": "usr_marat",
+      "type": "message",
+      "title": "Twiftyz Updates",
+      "text": "Илья Смирнов: Как дела?",
+      "read": false,
+      "createdAt": "2026-06-30T21:30:26.221Z"
+    },
+    {
+      "id": "ntf_e6bc1362d45b980c",
+      "userId": "usr_anna",
+      "type": "message",
+      "title": "Twiftyz Updates",
+      "text": "Илья Смирнов: Как дела?",
+      "read": false,
+      "createdAt": "2026-06-30T21:30:26.221Z"
+    },
+    {
+      "id": "ntf_e02884283976e77b",
+      "userId": "usr_lena",
+      "type": "message",
+      "title": "Twiftyz Updates",
+      "text": "Илья Смирнов: Прикрепил файл",
+      "read": false,
+      "createdAt": "2026-06-30T21:30:11.146Z"
+    },
+    {
+      "id": "ntf_8110953dc92ddb1b",
+      "userId": "usr_marat",
+      "type": "message",
+      "title": "Twiftyz Updates",
+      "text": "Илья Смирнов: Прикрепил файл",
+      "read": false,
+      "createdAt": "2026-06-30T21:30:11.146Z"
+    },
+    {
+      "id": "ntf_630383fe07533da3",
+      "userId": "usr_anna",
+      "type": "message",
+      "title": "Twiftyz Updates",
+      "text": "Илья Смирнов: Прикрепил файл",
+      "read": false,
+      "createdAt": "2026-06-30T21:30:11.146Z"
+    },
+    {
+      "id": "ntf_7b46d20595609212",
+      "userId": "usr_lena",
+      "type": "message",
+      "title": "Twiftyz Updates",
+      "text": "Илья Смирнов: Прикреплен файл",
+      "read": false,
+      "createdAt": "2026-06-30T21:01:38.312Z"
+    },
+    {
+      "id": "ntf_cf975194ffee5672",
+      "userId": "usr_marat",
+      "type": "message",
+      "title": "Twiftyz Updates",
+      "text": "Илья Смирнов: Прикреплен файл",
+      "read": false,
+      "createdAt": "2026-06-30T21:01:38.312Z"
+    },
+    {
+      "id": "ntf_f45e38e8343f7251",
+      "userId": "usr_anna",
+      "type": "message",
+      "title": "Twiftyz Updates",
+      "text": "Илья Смирнов: Прикреплен файл",
+      "read": false,
+      "createdAt": "2026-06-30T21:01:38.312Z"
+    },
+    {
+      "id": "ntf_670b68e6daa51e07",
+      "userId": "usr_anna",
+      "type": "message",
+      "title": "Анна Соколова",
+      "text": "Илья Смирнов: Прикреплен файл",
+      "read": false,
+      "createdAt": "2026-06-30T21:01:14.087Z"
+    },
+    {
+      "id": "ntf_50ee8eda708c0778",
+      "userId": "usr_demo",
+      "type": "security",
+      "title": "New login",
+      "text": "Session created: curl/8.19.0",
+      "read": true,
+      "createdAt": "2026-06-30T20:55:40.736Z"
+    },
+    {
+      "id": "ntf_db08bb9712c53903",
+      "userId": "usr_demo",
+      "type": "security",
+      "title": "New login",
+      "text": "Session created: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+      "read": true,
+      "createdAt": "2026-06-30T20:32:17.356Z"
+    },
+    {
+      "id": "ntf_359fd8f79befc334",
+      "userId": "usr_9c77f4afc1fe6316",
+      "type": "security",
+      "title": "Новый вход",
+      "text": "Создана сессия: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+      "read": false,
+      "createdAt": "2026-06-30T19:51:03.406Z"
+    },
+    {
+      "id": "ntf_9f1183a9972e8097",
+      "userId": "usr_demo",
+      "type": "security",
+      "title": "Новый вход",
+      "text": "Создана сессия: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+      "read": true,
+      "createdAt": "2026-06-30T19:50:48.737Z"
+    },
+    {
+      "id": "ntf_8872031e07ba7f02",
+      "userId": "usr_demo",
+      "type": "security",
+      "title": "New login",
+      "text": "Session created: Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.845",
+      "read": true,
+      "createdAt": "2026-06-30T19:40:33.731Z"
+    },
+    {
+      "id": "ntf_5cba4bc7ec328618",
+      "userId": "usr_demo",
+      "type": "security",
+      "title": "New login",
+      "text": "Session created: Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.845",
+      "read": true,
+      "createdAt": "2026-06-30T19:40:07.882Z"
+    },
+    {
+      "id": "ntf_e894aa4ea6cbef1a",
+      "userId": "usr_013208645887655b",
+      "type": "security",
+      "title": "Account created",
+      "text": "Session created: Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.845",
+      "read": false,
+      "createdAt": "2026-06-30T19:34:37.682Z"
+    },
+    {
+      "id": "ntf_526fef42dd6f7102",
+      "userId": "usr_e6f60a8e82f80a88",
+      "type": "security",
+      "title": "Account created",
+      "text": "Session created: Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.845",
+      "read": false,
+      "createdAt": "2026-06-30T19:34:37.626Z"
+    },
+    {
+      "id": "ntf_0b74c6742fa96539",
+      "userId": "usr_1942dc207c73e6a2",
+      "type": "security",
+      "title": "New login",
+      "text": "Session created: Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.845",
+      "read": false,
+      "createdAt": "2026-06-30T19:34:16.319Z"
+    },
+    {
+      "id": "ntf_9da59d9acdc93e26",
+      "userId": "usr_1942dc207c73e6a2",
+      "type": "security",
+      "title": "Password changed",
+      "text": "All other sessions were revoked.",
+      "read": false,
+      "createdAt": "2026-06-30T19:34:16.282Z"
+    },
+    {
+      "id": "ntf_6ecebc76862fe18e",
+      "userId": "usr_1942dc207c73e6a2",
+      "type": "security",
+      "title": "New login",
+      "text": "Session created: Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.845",
+      "read": false,
+      "createdAt": "2026-06-30T19:34:16.209Z"
+    },
+    {
+      "id": "ntf_3932ae34b56374c6",
+      "userId": "usr_1942dc207c73e6a2",
+      "type": "security",
+      "title": "Account created",
+      "text": "Session created: Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.845",
+      "read": false,
+      "createdAt": "2026-06-30T19:34:16.152Z"
+    },
+    {
+      "id": "ntf_3e586591256b43a4",
+      "userId": "usr_demo",
+      "type": "security",
+      "title": "New login",
+      "text": "Session created: Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.845",
+      "read": true,
+      "createdAt": "2026-06-30T19:28:02.772Z"
+    },
+    {
+      "id": "ntf_b17a9632e13ce015",
+      "userId": "usr_e8c726b469d4dff2",
+      "type": "message",
+      "title": "Bob Real",
+      "text": "Alice Real: ???????? ????????? ????? ??????????????????? ??????????",
+      "read": false,
+      "createdAt": "2026-06-30T19:26:13.932Z"
+    },
+    {
+      "id": "ntf_fbfd69a807e95d22",
+      "userId": "usr_a751e071c345610b",
+      "type": "security",
+      "title": "New login",
+      "text": "Session created: Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.845",
+      "read": false,
+      "createdAt": "2026-06-30T19:26:13.922Z"
+    },
+    {
+      "id": "ntf_1948e60fc06cabaf",
+      "userId": "usr_e8c726b469d4dff2",
+      "type": "security",
+      "title": "Account created",
+      "text": "Session created: Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.845",
+      "read": false,
+      "createdAt": "2026-06-30T19:26:13.889Z"
+    },
+    {
+      "id": "ntf_b13214090543204f",
+      "userId": "usr_a751e071c345610b",
+      "type": "security",
+      "title": "Account created",
+      "text": "Session created: Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.845",
+      "read": false,
+      "createdAt": "2026-06-30T19:26:13.833Z"
+    },
+    {
+      "id": "ntf_0aa0e5d3dd0e9228",
+      "userId": "usr_marat",
+      "type": "message",
+      "title": "Команда продукта",
+      "text": "Илья Смирнов: СОСАЛ????",
+      "read": false,
+      "createdAt": "2026-06-30T19:17:22.624Z"
+    },
+    {
+      "id": "ntf_0c1d47d38db8b00a",
+      "userId": "usr_anna",
+      "type": "message",
+      "title": "Команда продукта",
+      "text": "Илья Смирнов: СОСАЛ????",
+      "read": false,
+      "createdAt": "2026-06-30T19:17:22.624Z"
+    },
+    {
+      "id": "ntf_304ef107d1aedd02",
+      "userId": "usr_marat",
+      "type": "message",
+      "title": "Команда продукта",
+      "text": "Илья Смирнов: Прикрепил файл",
+      "read": false,
+      "createdAt": "2026-06-30T19:17:20.909Z"
+    },
+    {
+      "id": "ntf_dc666957614b8002",
+      "userId": "usr_anna",
+      "type": "message",
+      "title": "Команда продукта",
+      "text": "Илья Смирнов: Прикрепил файл",
+      "read": false,
+      "createdAt": "2026-06-30T19:17:20.909Z"
+    },
+    {
+      "id": "ntf_b3b6fa74d5586cca",
+      "userId": "usr_marat",
+      "type": "message",
+      "title": "Команда продукта",
+      "text": "Илья Смирнов: Прикрепил файл",
+      "read": false,
+      "createdAt": "2026-06-30T19:17:18.837Z"
+    },
+    {
+      "id": "ntf_ad149a9e8f9db44d",
+      "userId": "usr_anna",
+      "type": "message",
+      "title": "Команда продукта",
+      "text": "Илья Смирнов: Прикрепил файл",
+      "read": false,
+      "createdAt": "2026-06-30T19:17:18.837Z"
+    },
+    {
+      "id": "ntf_af6c15fac4175989",
+      "userId": "usr_anna",
+      "type": "message",
+      "title": "Анна Соколова",
+      "text": "Илья Смирнов: asd",
+      "read": false,
+      "createdAt": "2026-06-30T19:16:37.495Z"
+    },
+    {
+      "id": "ntf_ba5b1a650954b288",
+      "userId": "usr_demo",
+      "type": "security",
+      "title": "Новый вход",
+      "text": "Создана сессия: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+      "read": true,
+      "createdAt": "2026-06-30T19:16:11.492Z"
+    },
+    {
+      "id": "ntf_8967d7204272601b",
+      "userId": "usr_anna",
+      "type": "message",
+      "title": "Анна Соколова",
+      "text": "Илья Смирнов: ???????? API ????? ?????????? ??",
+      "read": false,
+      "createdAt": "2026-06-30T19:03:12.897Z"
+    },
+    {
+      "id": "ntf_88e88ae28b1e1606",
+      "userId": "usr_demo",
+      "type": "security",
+      "title": "Новый вход",
+      "text": "Создана сессия: Mozilla/5.0 (Windows NT; Windows NT 10.0; ru-RU) WindowsPowerShell/5.1.26100.845",
+      "read": true,
+      "createdAt": "2026-06-30T19:03:12.880Z"
+    },
+    {
+      "id": "ntf_seed",
+      "userId": "usr_demo",
+      "type": "security",
+      "title": "Новый вход",
+      "text": "Вход в демо-аккаунт будет отмечен в журнале безопасности.",
+      "read": true,
+      "createdAt": "2026-06-30T18:59:47.315Z"
+    }
+  ],
+  "settings": {
+    "usr_demo": {
+      "theme": "dark",
+      "language": "ru",
+      "fontSize": 16,
+      "colorScheme": "balanced",
+      "mediaAutoDownload": "wifi",
+      "autosave": true,
+      "callQuality": "auto",
+      "videoQuality": "auto",
+      "security": {
+        "twoFactorEnabled": false,
+        "newDeviceApproval": true,
+        "sessionCompromiseLogout": true
+      },
+      "notifications": {
+        "push": true,
+        "email": true,
+        "desktop": true,
+        "webPush": true,
+        "sounds": true,
+        "doNotDisturb": false,
+        "schedule": "09:00-22:00"
+      }
+    },
+    "usr_anna": {
+      "theme": "auto",
+      "language": "ru",
+      "fontSize": 15,
+      "colorScheme": "balanced",
+      "mediaAutoDownload": "wifi",
+      "autosave": true,
+      "callQuality": "auto",
+      "videoQuality": "auto",
+      "security": {
+        "twoFactorEnabled": false,
+        "newDeviceApproval": true,
+        "sessionCompromiseLogout": true
+      },
+      "notifications": {
+        "push": true,
+        "email": true,
+        "desktop": true,
+        "webPush": true,
+        "sounds": true,
+        "doNotDisturb": false,
+        "schedule": "09:00-22:00"
+      }
+    },
+    "usr_marat": {
+      "theme": "auto",
+      "language": "ru",
+      "fontSize": 15,
+      "colorScheme": "balanced",
+      "mediaAutoDownload": "wifi",
+      "autosave": true,
+      "callQuality": "auto",
+      "videoQuality": "auto",
+      "security": {
+        "twoFactorEnabled": false,
+        "newDeviceApproval": true,
+        "sessionCompromiseLogout": true
+      },
+      "notifications": {
+        "push": true,
+        "email": true,
+        "desktop": true,
+        "webPush": true,
+        "sounds": true,
+        "doNotDisturb": false,
+        "schedule": "09:00-22:00"
+      }
+    },
+    "usr_lena": {
+      "theme": "auto",
+      "language": "ru",
+      "fontSize": 15,
+      "colorScheme": "balanced",
+      "mediaAutoDownload": "wifi",
+      "autosave": true,
+      "callQuality": "auto",
+      "videoQuality": "auto",
+      "security": {
+        "twoFactorEnabled": false,
+        "newDeviceApproval": true,
+        "sessionCompromiseLogout": true
+      },
+      "notifications": {
+        "push": true,
+        "email": true,
+        "desktop": true,
+        "webPush": true,
+        "sounds": true,
+        "doNotDisturb": false,
+        "schedule": "09:00-22:00"
+      }
+    },
+    "usr_a751e071c345610b": {
+      "theme": "auto",
+      "language": "ru",
+      "fontSize": 15,
+      "colorScheme": "balanced",
+      "mediaAutoDownload": "wifi",
+      "autosave": true,
+      "callQuality": "auto",
+      "videoQuality": "auto",
+      "security": {
+        "twoFactorEnabled": false,
+        "newDeviceApproval": true,
+        "sessionCompromiseLogout": true
+      },
+      "notifications": {
+        "push": true,
+        "email": true,
+        "desktop": true,
+        "webPush": true,
+        "sounds": true,
+        "doNotDisturb": false,
+        "schedule": "09:00-22:00"
+      }
+    },
+    "usr_e8c726b469d4dff2": {
+      "theme": "auto",
+      "language": "ru",
+      "fontSize": 15,
+      "colorScheme": "balanced",
+      "mediaAutoDownload": "wifi",
+      "autosave": true,
+      "callQuality": "auto",
+      "videoQuality": "auto",
+      "security": {
+        "twoFactorEnabled": false,
+        "newDeviceApproval": true,
+        "sessionCompromiseLogout": true
+      },
+      "notifications": {
+        "push": true,
+        "email": true,
+        "desktop": true,
+        "webPush": true,
+        "sounds": true,
+        "doNotDisturb": false,
+        "schedule": "09:00-22:00"
+      }
+    },
+    "usr_1942dc207c73e6a2": {
+      "theme": "auto",
+      "language": "ru",
+      "fontSize": 15,
+      "colorScheme": "balanced",
+      "mediaAutoDownload": "wifi",
+      "autosave": true,
+      "callQuality": "auto",
+      "videoQuality": "auto",
+      "security": {
+        "twoFactorEnabled": false,
+        "newDeviceApproval": true,
+        "sessionCompromiseLogout": true
+      },
+      "notifications": {
+        "push": true,
+        "email": true,
+        "desktop": true,
+        "webPush": true,
+        "sounds": true,
+        "doNotDisturb": false,
+        "schedule": "09:00-22:00"
+      }
+    },
+    "usr_e6f60a8e82f80a88": {
+      "theme": "auto",
+      "language": "ru",
+      "fontSize": 15,
+      "colorScheme": "balanced",
+      "mediaAutoDownload": "wifi",
+      "autosave": true,
+      "callQuality": "auto",
+      "videoQuality": "auto",
+      "security": {
+        "twoFactorEnabled": false,
+        "newDeviceApproval": true,
+        "sessionCompromiseLogout": true
+      },
+      "notifications": {
+        "push": true,
+        "email": true,
+        "desktop": true,
+        "webPush": true,
+        "sounds": true,
+        "doNotDisturb": false,
+        "schedule": "09:00-22:00"
+      }
+    },
+    "usr_013208645887655b": {
+      "theme": "auto",
+      "language": "ru",
+      "fontSize": 15,
+      "colorScheme": "balanced",
+      "mediaAutoDownload": "wifi",
+      "autosave": true,
+      "callQuality": "auto",
+      "videoQuality": "auto",
+      "security": {
+        "twoFactorEnabled": false,
+        "newDeviceApproval": true,
+        "sessionCompromiseLogout": true
+      },
+      "notifications": {
+        "push": true,
+        "email": true,
+        "desktop": true,
+        "webPush": true,
+        "sounds": true,
+        "doNotDisturb": false,
+        "schedule": "09:00-22:00"
+      }
+    },
+    "usr_9c77f4afc1fe6316": {
+      "theme": "auto",
+      "language": "ru",
+      "fontSize": 15,
+      "colorScheme": "balanced",
+      "mediaAutoDownload": "wifi",
+      "autosave": true,
+      "callQuality": "auto",
+      "videoQuality": "auto",
+      "security": {
+        "twoFactorEnabled": false,
+        "newDeviceApproval": true,
+        "sessionCompromiseLogout": true
+      },
+      "notifications": {
+        "push": true,
+        "email": true,
+        "desktop": true,
+        "webPush": true,
+        "sounds": true,
+        "doNotDisturb": false,
+        "schedule": "09:00-22:00"
+      }
+    },
+    "usr_twiftyz_service": {
+      "theme": "auto",
+      "language": "ru",
+      "fontSize": 15,
+      "colorScheme": "balanced",
+      "mediaAutoDownload": "wifi",
+      "autosave": true,
+      "callQuality": "auto",
+      "videoQuality": "auto",
+      "security": {
+        "twoFactorEnabled": false,
+        "newDeviceApproval": true,
+        "sessionCompromiseLogout": true
+      },
+      "notifications": {
+        "push": true,
+        "email": true,
+        "desktop": true,
+        "webPush": true,
+        "sounds": true,
+        "doNotDisturb": false,
+        "schedule": "09:00-22:00"
+      }
+    },
+    "usr_eb96a8b94ce1ece8": {
+      "theme": "auto",
+      "language": "ru",
+      "fontSize": 15,
+      "colorScheme": "balanced",
+      "mediaAutoDownload": "wifi",
+      "autosave": true,
+      "callQuality": "auto",
+      "videoQuality": "auto",
+      "security": {
+        "twoFactorEnabled": false,
+        "newDeviceApproval": true,
+        "sessionCompromiseLogout": true
+      },
+      "notifications": {
+        "push": true,
+        "email": true,
+        "desktop": true,
+        "webPush": true,
+        "sounds": true,
+        "doNotDisturb": false,
+        "schedule": "09:00-22:00"
+      }
+    },
+    "usr_825982dca7f18705": {
+      "theme": "auto",
+      "language": "ru",
+      "fontSize": 15,
+      "colorScheme": "balanced",
+      "mediaAutoDownload": "wifi",
+      "autosave": true,
+      "callQuality": "auto",
+      "videoQuality": "auto",
+      "security": {
+        "twoFactorEnabled": false,
+        "newDeviceApproval": true,
+        "sessionCompromiseLogout": true
+      },
+      "notifications": {
+        "push": true,
+        "email": true,
+        "desktop": true,
+        "webPush": true,
+        "sounds": true,
+        "doNotDisturb": false,
+        "schedule": "09:00-22:00"
+      }
+    },
+    "usr_0e4ab4321e3ce7a4": {
+      "theme": "auto",
+      "language": "ru",
+      "fontSize": 15,
+      "colorScheme": "balanced",
+      "mediaAutoDownload": "wifi",
+      "autosave": true,
+      "callQuality": "auto",
+      "videoQuality": "auto",
+      "security": {
+        "twoFactorEnabled": false,
+        "newDeviceApproval": true,
+        "sessionCompromiseLogout": true
+      },
+      "notifications": {
+        "push": true,
+        "email": true,
+        "desktop": true,
+        "webPush": true,
+        "sounds": true,
+        "doNotDisturb": false,
+        "schedule": "09:00-22:00"
+      }
+    },
+    "usr_bde1ad2d7cf42c41": {
+      "theme": "auto",
+      "language": "ru",
+      "fontSize": 15,
+      "colorScheme": "balanced",
+      "mediaAutoDownload": "wifi",
+      "autosave": true,
+      "callQuality": "auto",
+      "videoQuality": "auto",
+      "security": {
+        "twoFactorEnabled": false,
+        "newDeviceApproval": true,
+        "sessionCompromiseLogout": true
+      },
+      "notifications": {
+        "push": true,
+        "email": true,
+        "desktop": true,
+        "webPush": true,
+        "sounds": true,
+        "doNotDisturb": false,
+        "schedule": "09:00-22:00"
+      }
+    },
+    "usr_e1bed496b4547f74": {
+      "theme": "auto",
+      "language": "ru",
+      "fontSize": 15,
+      "colorScheme": "balanced",
+      "mediaAutoDownload": "wifi",
+      "autosave": true,
+      "callQuality": "auto",
+      "videoQuality": "auto",
+      "security": {
+        "twoFactorEnabled": false,
+        "newDeviceApproval": true,
+        "sessionCompromiseLogout": true
+      },
+      "notifications": {
+        "push": true,
+        "email": true,
+        "desktop": true,
+        "webPush": true,
+        "sounds": true,
+        "doNotDisturb": false,
+        "schedule": "09:00-22:00"
+      }
+    },
+    "usr_729337299f6a76ab": {
+      "theme": "auto",
+      "language": "ru",
+      "fontSize": 15,
+      "colorScheme": "balanced",
+      "mediaAutoDownload": "wifi",
+      "autosave": true,
+      "callQuality": "auto",
+      "videoQuality": "auto",
+      "security": {
+        "twoFactorEnabled": false,
+        "newDeviceApproval": true,
+        "sessionCompromiseLogout": true
+      },
+      "notifications": {
+        "push": true,
+        "email": true,
+        "desktop": true,
+        "webPush": true,
+        "sounds": true,
+        "doNotDisturb": false,
+        "schedule": "09:00-22:00"
+      }
+    }
+  },
+  "logs": [
+    {
+      "id": "log_046e1974d4e0d579",
+      "level": "warn",
+      "actorId": "usr_demo",
+      "action": "message.deleted",
+      "text": "Message msg_fe64792d665720ca deleted with scope everyone",
+      "extra": {},
+      "createdAt": "2026-07-07T20:17:50.742Z"
+    },
+    {
+      "id": "log_69f2106271602651",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login",
+      "text": "User Илья Смирнов signed in via code",
+      "extra": {
+        "sessionId": "ses_03b9210a4671f7de"
+      },
+      "createdAt": "2026-07-07T20:08:53.973Z"
+    },
+    {
+      "id": "log_e5684b9dbf425ee6",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login.code",
+      "text": "In-app login code issued for Илья Смирнов",
+      "extra": {},
+      "createdAt": "2026-07-07T20:08:43.398Z"
+    },
+    {
+      "id": "log_0b2db4d4afe0572c",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "auth.logout",
+      "text": "Session ses_e602227cebe02eaf logged out",
+      "extra": {},
+      "createdAt": "2026-07-02T20:53:47.602Z"
+    },
+    {
+      "id": "log_0eb45d6e21751ac5",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "settings.updated",
+      "text": "Settings updated",
+      "extra": {},
+      "createdAt": "2026-07-02T20:52:21.080Z"
+    },
+    {
+      "id": "log_e85e530717ddf8a4",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "settings.updated",
+      "text": "Settings updated",
+      "extra": {},
+      "createdAt": "2026-07-02T20:52:18.627Z"
+    },
+    {
+      "id": "log_d32f6ebaa74b3cb9",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "profile.updated",
+      "text": "Profile updated",
+      "extra": {},
+      "createdAt": "2026-07-02T20:49:48.887Z"
+    },
+    {
+      "id": "log_b8f7a9835a9e7c5a",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "avatar.uploaded",
+      "text": "Avatar updated",
+      "extra": {},
+      "createdAt": "2026-07-02T20:49:47.766Z"
+    },
+    {
+      "id": "log_3caa8c8c23d1febb",
+      "level": "warn",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "chat.deleted",
+      "text": "group awsef deleted by owner",
+      "extra": {},
+      "createdAt": "2026-07-02T20:49:32.330Z"
+    },
+    {
+      "id": "log_1efeab293a959c2d",
+      "level": "warn",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "chat.deleted",
+      "text": "group asf deleted by owner",
+      "extra": {},
+      "createdAt": "2026-07-02T20:49:29.565Z"
+    },
+    {
+      "id": "log_f1b5618fcaf70c8d",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "chat.created",
+      "text": "group asf created",
+      "extra": {},
+      "createdAt": "2026-07-02T20:49:24.291Z"
+    },
+    {
+      "id": "log_b94d9a61cdee944f",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "message.created",
+      "text": "Message sent to awsef",
+      "extra": {},
+      "createdAt": "2026-07-02T20:49:19.959Z"
+    },
+    {
+      "id": "log_cd493c8c0fd71ebb",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "file.uploaded",
+      "text": "Uploaded twiftyz-mark-2a.png",
+      "extra": {
+        "fileId": "file_959698cc7c2f3b86",
+        "chatId": "chat_18dd6893c4deb4bc"
+      },
+      "createdAt": "2026-07-02T20:49:19.952Z"
+    },
+    {
+      "id": "log_e1de601e66b656a9",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "auth.login",
+      "text": "User Toro Sidzui signed in via code",
+      "extra": {
+        "sessionId": "ses_e602227cebe02eaf"
+      },
+      "createdAt": "2026-07-02T20:49:17.571Z"
+    },
+    {
+      "id": "log_807cbe2f868a6a8f",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "auth.login.code",
+      "text": "Email login code issued for Toro Sidzui",
+      "extra": {},
+      "createdAt": "2026-07-02T20:48:59.252Z"
+    },
+    {
+      "id": "log_249cb322ea563829",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "auth.logout",
+      "text": "Session ses_a18545e7e1e231e4 logged out",
+      "extra": {},
+      "createdAt": "2026-07-02T20:29:25.079Z"
+    },
+    {
+      "id": "log_bf70f8901ad1747c",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "message.created",
+      "text": "Message sent to awsef",
+      "extra": {},
+      "createdAt": "2026-07-02T20:29:11.406Z"
+    },
+    {
+      "id": "log_252794d51ae44e50",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "file.uploaded",
+      "text": "Uploaded twiftyz-mark-2a.png",
+      "extra": {
+        "fileId": "file_4b61deed80373550",
+        "chatId": "chat_18dd6893c4deb4bc"
+      },
+      "createdAt": "2026-07-02T20:29:11.400Z"
+    },
+    {
+      "id": "log_e36364b6d8b7fc0c",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "chat.created",
+      "text": "group awsef created",
+      "extra": {},
+      "createdAt": "2026-07-02T20:29:02.333Z"
+    },
+    {
+      "id": "log_9834a733ceb1ffb2",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "profile.updated",
+      "text": "Profile updated",
+      "extra": {},
+      "createdAt": "2026-07-02T20:28:42.018Z"
+    },
+    {
+      "id": "log_f576ac258a306eab",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "profile.updated",
+      "text": "Profile updated",
+      "extra": {},
+      "createdAt": "2026-07-02T20:28:37.178Z"
+    },
+    {
+      "id": "log_bc8aac98397ba54d",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "chat.state.updated",
+      "text": "Chat state updated for тесттест",
+      "extra": {},
+      "createdAt": "2026-07-02T20:28:17.163Z"
+    },
+    {
+      "id": "log_11474d7e50e0b4cd",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "auth.reset",
+      "text": "Password reset for Toro Sidzui",
+      "extra": {
+        "sessionId": "ses_a18545e7e1e231e4"
+      },
+      "createdAt": "2026-07-02T20:28:13.086Z"
+    },
+    {
+      "id": "log_3cdb0347d6643a35",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "auth.reset.start",
+      "text": "Password reset code emailed for Toro Sidzui",
+      "extra": {},
+      "createdAt": "2026-07-02T20:27:48.287Z"
+    },
+    {
+      "id": "log_04453c34ce9fd2d0",
+      "level": "warn",
+      "actorId": "system",
+      "action": "auth.login.failed",
+      "text": "Failed login for 89610080030",
+      "extra": {},
+      "createdAt": "2026-07-02T20:27:38.437Z"
+    },
+    {
+      "id": "log_2fa10c6dc54e1955",
+      "level": "warn",
+      "actorId": "system",
+      "action": "auth.login.failed",
+      "text": "Failed login for 89610080030",
+      "extra": {},
+      "createdAt": "2026-07-02T20:27:35.725Z"
+    },
+    {
+      "id": "log_8c1b1a8c35d198ae",
+      "level": "info",
+      "actorId": "usr_729337299f6a76ab",
+      "action": "auth.logout",
+      "text": "Session ses_c86ce2dca137a37e logged out",
+      "extra": {},
+      "createdAt": "2026-07-02T20:13:34.914Z"
+    },
+    {
+      "id": "log_8e72a1a8a6442832",
+      "level": "info",
+      "actorId": "usr_729337299f6a76ab",
+      "action": "message.created",
+      "text": "Message sent to ghjk",
+      "extra": {},
+      "createdAt": "2026-07-02T20:12:00.823Z"
+    },
+    {
+      "id": "log_70d010c4d1d43f23",
+      "level": "info",
+      "actorId": "usr_729337299f6a76ab",
+      "action": "file.uploaded",
+      "text": "Uploaded twiftyz-mark-2a.png",
+      "extra": {
+        "fileId": "file_cb3744b63172c2e3",
+        "chatId": "chat_ba6645112df6dddd"
+      },
+      "createdAt": "2026-07-02T20:12:00.817Z"
+    },
+    {
+      "id": "log_370719f4e22874e3",
+      "level": "info",
+      "actorId": "usr_729337299f6a76ab",
+      "action": "chat.created",
+      "text": "channel ghjk created",
+      "extra": {},
+      "createdAt": "2026-07-02T20:10:40.833Z"
+    },
+    {
+      "id": "log_994defba742b2448",
+      "level": "info",
+      "actorId": "usr_729337299f6a76ab",
+      "action": "chat.created",
+      "text": "group asf created",
+      "extra": {},
+      "createdAt": "2026-07-02T20:10:08.730Z"
+    },
+    {
+      "id": "log_92eec97ec286e862",
+      "level": "info",
+      "actorId": "usr_729337299f6a76ab",
+      "action": "profile.updated",
+      "text": "Profile updated",
+      "extra": {},
+      "createdAt": "2026-07-02T20:09:55.752Z"
+    },
+    {
+      "id": "log_2399013a64f9cd46",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.register.start",
+      "text": "Registration code requested for probe.a1@example.com",
+      "extra": {},
+      "createdAt": "2026-07-01T22:29:20.855Z"
+    },
+    {
+      "id": "log_a9cd10788f92cf58",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.register.start",
+      "text": "Registration code requested for smoke1@example.com",
+      "extra": {},
+      "createdAt": "2026-07-01T22:27:25.143Z"
+    },
+    {
+      "id": "log_286b4be08c21ad44",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login.code",
+      "text": "In-app login code issued for Илья Смирнов",
+      "extra": {},
+      "createdAt": "2026-07-01T22:27:09.237Z"
+    },
+    {
+      "id": "log_37bc7223a63a90e0",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.register.start",
+      "text": "Registration code requested for tz3@example.com",
+      "extra": {},
+      "createdAt": "2026-07-01T21:56:53.212Z"
+    },
+    {
+      "id": "log_bd0b6dbd683da495",
+      "level": "warn",
+      "actorId": "system",
+      "action": "auth.register.email_disabled",
+      "text": "Email disabled. Registration code for tz3@example.com: 291457",
+      "extra": {},
+      "createdAt": "2026-07-01T21:56:53.212Z"
+    },
+    {
+      "id": "log_9f57bf840d370eeb",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.register.start",
+      "text": "Registration code requested for tx9@example.com",
+      "extra": {},
+      "createdAt": "2026-07-01T21:56:12.423Z"
+    },
+    {
+      "id": "log_f80d02eacf819be2",
+      "level": "warn",
+      "actorId": "system",
+      "action": "auth.register.email_disabled",
+      "text": "Email disabled. Registration code for tx9@example.com: 230413",
+      "extra": {},
+      "createdAt": "2026-07-01T21:56:12.423Z"
+    },
+    {
+      "id": "log_b5e02feebf4114cc",
+      "level": "info",
+      "actorId": "usr_729337299f6a76ab",
+      "action": "chat.joined",
+      "text": "фцыаф фцыуа joined тесттест via invite",
+      "extra": {},
+      "createdAt": "2026-07-01T11:56:59.440Z"
+    },
+    {
+      "id": "log_2e4ed17f14b6ccad",
+      "level": "info",
+      "actorId": "usr_729337299f6a76ab",
+      "action": "auth.register",
+      "text": "User фцыаф фцыуа registered",
+      "extra": {
+        "sessionId": "ses_c86ce2dca137a37e"
+      },
+      "createdAt": "2026-07-01T11:56:51.643Z"
+    },
+    {
+      "id": "log_254cf336d5f562f1",
+      "level": "info",
+      "actorId": "usr_729337299f6a76ab",
+      "action": "user.registered",
+      "text": "Registered account oujifhsa",
+      "extra": {},
+      "createdAt": "2026-07-01T11:56:51.643Z"
+    },
+    {
+      "id": "log_15c2ea47a2ee664b",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.register.start",
+      "text": "Registration code requested for zokotimeasd@mail.ru",
+      "extra": {},
+      "createdAt": "2026-07-01T11:56:37.488Z"
+    },
+    {
+      "id": "log_7afcde79c55851b9",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login.code",
+      "text": "In-app login code issued for Илья Смирнов",
+      "extra": {},
+      "createdAt": "2026-07-01T11:56:05.405Z"
+    },
+    {
+      "id": "log_16803e44f636a9e4",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login.code",
+      "text": "In-app login code issued for Илья Смирнов",
+      "extra": {},
+      "createdAt": "2026-07-01T11:56:01.244Z"
+    },
+    {
+      "id": "log_306c44e6271c495d",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "auth.logout",
+      "text": "Session ses_ad847d6ff6096f83 logged out",
+      "extra": {},
+      "createdAt": "2026-07-01T11:55:59.702Z"
+    },
+    {
+      "id": "log_a1a199629cdd6953",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "message.created",
+      "text": "Message sent to тесттест",
+      "extra": {},
+      "createdAt": "2026-07-01T11:55:43.119Z"
+    },
+    {
+      "id": "log_1a48dcfb56650063",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "chat.created",
+      "text": "channel тесттест created",
+      "extra": {},
+      "createdAt": "2026-07-01T11:55:36.117Z"
+    },
+    {
+      "id": "log_3adcd1241da933d9",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login.code",
+      "text": "In-app login code issued for Илья Смирнов",
+      "extra": {},
+      "createdAt": "2026-07-01T11:44:46.422Z"
+    },
+    {
+      "id": "log_b26f53b06049519c",
+      "level": "info",
+      "actorId": "usr_e1bed496b4547f74",
+      "action": "chat.joined",
+      "text": "Joiner joined Invite Test via invite",
+      "extra": {},
+      "createdAt": "2026-07-01T11:43:53.634Z"
+    },
+    {
+      "id": "log_bba3411a07867123",
+      "level": "info",
+      "actorId": "usr_e1bed496b4547f74",
+      "action": "auth.register",
+      "text": "User Joiner registered",
+      "extra": {
+        "sessionId": "ses_ced523e229d2cef6"
+      },
+      "createdAt": "2026-07-01T11:43:53.580Z"
+    },
+    {
+      "id": "log_051d7ad1f806a12b",
+      "level": "info",
+      "actorId": "usr_e1bed496b4547f74",
+      "action": "user.registered",
+      "text": "Registered account joiner1",
+      "extra": {},
+      "createdAt": "2026-07-01T11:43:53.580Z"
+    },
+    {
+      "id": "log_c040db9050398bf5",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.register.start",
+      "text": "Registration code requested for joiner@example.com",
+      "extra": {},
+      "createdAt": "2026-07-01T11:43:53.444Z"
+    },
+    {
+      "id": "log_fa50ed0494964fa1",
+      "level": "warn",
+      "actorId": "system",
+      "action": "auth.register.email_disabled",
+      "text": "Email disabled. Registration code for joiner@example.com: 651370",
+      "extra": {},
+      "createdAt": "2026-07-01T11:43:53.444Z"
+    },
+    {
+      "id": "log_bd2cc9a007f4cb5e",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "chat.created",
+      "text": "group Invite Test created",
+      "extra": {},
+      "createdAt": "2026-07-01T11:43:53.324Z"
+    },
+    {
+      "id": "log_28f401738abc8bee",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login",
+      "text": "User Илья Смирнов signed in via code",
+      "extra": {
+        "sessionId": "ses_083fb275d051af1c"
+      },
+      "createdAt": "2026-07-01T11:43:53.268Z"
+    },
+    {
+      "id": "log_88790db7d91a0140",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login.code",
+      "text": "In-app login code issued for Илья Смирнов",
+      "extra": {},
+      "createdAt": "2026-07-01T11:43:53.121Z"
+    },
+    {
+      "id": "log_e40e365cc22cafc7",
+      "level": "warn",
+      "actorId": "system",
+      "action": "auth.login.failed",
+      "text": "Failed login for demo@twiftyz.local",
+      "extra": {},
+      "createdAt": "2026-07-01T11:38:04.368Z"
+    },
+    {
+      "id": "log_e76f7001f1d678a1",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login.code",
+      "text": "In-app login code issued for Илья Смирнов",
+      "extra": {},
+      "createdAt": "2026-07-01T11:38:04.311Z"
+    },
+    {
+      "id": "log_52c6e75810df7c7c",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.reset",
+      "text": "Password reset for Илья Смирнов",
+      "extra": {
+        "sessionId": "ses_035b006b7f005f01"
+      },
+      "createdAt": "2026-07-01T11:38:04.217Z"
+    },
+    {
+      "id": "log_aaff23201010da57",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.reset.start",
+      "text": "Password reset code emailed for Илья Смирнов",
+      "extra": {},
+      "createdAt": "2026-07-01T11:38:04.054Z"
+    },
+    {
+      "id": "log_62a322b8d9d2a208",
+      "level": "warn",
+      "actorId": "system",
+      "action": "auth.reset.email_disabled",
+      "text": "Email disabled. Reset code for demo@twiftyz.local: 475862",
+      "extra": {},
+      "createdAt": "2026-07-01T11:38:04.054Z"
+    },
+    {
+      "id": "log_506b7009b5511681",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "auth.register",
+      "text": "User Toro Sidzui registered",
+      "extra": {
+        "sessionId": "ses_ad847d6ff6096f83"
+      },
+      "createdAt": "2026-07-01T11:27:27.984Z"
+    },
+    {
+      "id": "log_334065d6d4b075a0",
+      "level": "info",
+      "actorId": "usr_bde1ad2d7cf42c41",
+      "action": "user.registered",
+      "text": "Registered account sidzui",
+      "extra": {},
+      "createdAt": "2026-07-01T11:27:27.984Z"
+    },
+    {
+      "id": "log_3ace57c81d34caa0",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.register.start",
+      "text": "Registration code requested for alphadota04@mail.ru",
+      "extra": {},
+      "createdAt": "2026-07-01T11:27:09.067Z"
+    },
+    {
+      "id": "log_ddaec567de3bb551",
+      "level": "info",
+      "actorId": "usr_0e4ab4321e3ce7a4",
+      "action": "auth.logout",
+      "text": "Session ses_fd6edc6c89a0f6e2 logged out",
+      "extra": {},
+      "createdAt": "2026-07-01T11:26:46.089Z"
+    },
+    {
+      "id": "log_771962579fa1dfd5",
+      "level": "warn",
+      "actorId": "usr_0e4ab4321e3ce7a4",
+      "action": "message.deleted",
+      "text": "Message msg_85577b5e77c29534 deleted with scope everyone",
+      "extra": {},
+      "createdAt": "2026-07-01T11:26:02.179Z"
+    },
+    {
+      "id": "log_69299a6b4edb1d57",
+      "level": "info",
+      "actorId": "usr_0e4ab4321e3ce7a4",
+      "action": "message.created",
+      "text": "Message sent to Twiftyz",
+      "extra": {},
+      "createdAt": "2026-07-01T11:25:59.784Z"
+    },
+    {
+      "id": "log_3fe031fe8c701c7b",
+      "level": "info",
+      "actorId": "usr_0e4ab4321e3ce7a4",
+      "action": "file.uploaded",
+      "text": "Uploaded AnyDesk.exe",
+      "extra": {
+        "fileId": "file_2e79248cc453da04",
+        "chatId": "chat_695dd69187bd9682"
+      },
+      "createdAt": "2026-07-01T11:25:59.778Z"
+    },
+    {
+      "id": "log_b8d9ed4b325e898f",
+      "level": "info",
+      "actorId": "usr_0e4ab4321e3ce7a4",
+      "action": "auth.register",
+      "text": "User sup port registered",
+      "extra": {
+        "sessionId": "ses_fd6edc6c89a0f6e2"
+      },
+      "createdAt": "2026-07-01T11:25:39.822Z"
+    },
+    {
+      "id": "log_d842aea6439b1e5b",
+      "level": "info",
+      "actorId": "usr_0e4ab4321e3ce7a4",
+      "action": "user.registered",
+      "text": "Registered account supporttwiftyz",
+      "extra": {},
+      "createdAt": "2026-07-01T11:25:39.822Z"
+    },
+    {
+      "id": "log_73c44c34943d65ff",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.register.start",
+      "text": "Registration code requested for support@twiftyz.ru",
+      "extra": {},
+      "createdAt": "2026-07-01T11:25:06.989Z"
+    },
+    {
+      "id": "log_2e32eb904eca876e",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.register.start",
+      "text": "Registration code requested for alphadota04@mail.ru",
+      "extra": {},
+      "createdAt": "2026-07-01T10:47:42.072Z"
+    },
+    {
+      "id": "log_6b6d210656d77eda",
+      "level": "warn",
+      "actorId": "system",
+      "action": "auth.login.failed",
+      "text": "Failed login for demo@twiftyz.local",
+      "extra": {},
+      "createdAt": "2026-06-30T23:09:21.438Z"
+    },
+    {
+      "id": "log_9ca1bc28980b975b",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login.code",
+      "text": "In-app login code issued for Илья Смирнов",
+      "extra": {},
+      "createdAt": "2026-06-30T23:09:21.367Z"
+    },
+    {
+      "id": "log_b80ef317b13dd308",
+      "level": "info",
+      "actorId": "usr_825982dca7f18705",
+      "action": "auth.register",
+      "text": "User Prev registered",
+      "extra": {
+        "sessionId": "ses_c0f654a8de09d7bc"
+      },
+      "createdAt": "2026-06-30T23:08:37.419Z"
+    },
+    {
+      "id": "log_9a9f57d96fc6eeff",
+      "level": "info",
+      "actorId": "usr_825982dca7f18705",
+      "action": "user.registered",
+      "text": "Registered account prevtest",
+      "extra": {},
+      "createdAt": "2026-06-30T23:08:37.419Z"
+    },
+    {
+      "id": "log_70954a06d2f6804e",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.register.start",
+      "text": "Registration code requested for prev@example.com",
+      "extra": {},
+      "createdAt": "2026-06-30T23:08:37.276Z"
+    },
+    {
+      "id": "log_f9e65bbc828ea4a3",
+      "level": "warn",
+      "actorId": "system",
+      "action": "auth.register.email_disabled",
+      "text": "Email disabled. Registration code for prev@example.com: 477147",
+      "extra": {},
+      "createdAt": "2026-06-30T23:08:37.276Z"
+    },
+    {
+      "id": "log_c1c07afefbcaf776",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login.code",
+      "text": "In-app login code issued for Илья Смирнов",
+      "extra": {},
+      "createdAt": "2026-06-30T23:08:37.212Z"
+    },
+    {
+      "id": "log_3360aa79f0fe9062",
+      "level": "info",
+      "actorId": "usr_eb96a8b94ce1ece8",
+      "action": "auth.recover",
+      "text": "Recovery code emailed for ���� �",
+      "extra": {},
+      "createdAt": "2026-06-30T22:57:11.388Z"
+    },
+    {
+      "id": "log_1ee148ef0f737918",
+      "level": "warn",
+      "actorId": "system",
+      "action": "auth.recover.email_disabled",
+      "text": "Email disabled. Recovery code for ivan_test@example.com: 397164",
+      "extra": {},
+      "createdAt": "2026-06-30T22:57:11.388Z"
+    },
+    {
+      "id": "log_27730de56eb65d97",
+      "level": "info",
+      "actorId": "usr_eb96a8b94ce1ece8",
+      "action": "auth.login",
+      "text": "User ���� � signed in via code",
+      "extra": {
+        "sessionId": "ses_c8cc321908f4bb7b"
+      },
+      "createdAt": "2026-06-30T22:56:44.163Z"
+    },
+    {
+      "id": "log_8cd27f56f4a89ebd",
+      "level": "info",
+      "actorId": "usr_eb96a8b94ce1ece8",
+      "action": "auth.login.code",
+      "text": "In-app login code issued for ���� �",
+      "extra": {},
+      "createdAt": "2026-06-30T22:56:44.035Z"
+    },
+    {
+      "id": "log_24bda67ceea409f0",
+      "level": "info",
+      "actorId": "usr_eb96a8b94ce1ece8",
+      "action": "auth.register",
+      "text": "User ���� � registered",
+      "extra": {
+        "sessionId": "ses_cfc5d5c8c6b90827"
+      },
+      "createdAt": "2026-06-30T22:56:43.865Z"
+    },
+    {
+      "id": "log_f68784f3f0463009",
+      "level": "info",
+      "actorId": "usr_eb96a8b94ce1ece8",
+      "action": "user.registered",
+      "text": "Registered account ivan_test",
+      "extra": {},
+      "createdAt": "2026-06-30T22:56:43.864Z"
+    },
+    {
+      "id": "log_2571d59db0f203a9",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.register.start",
+      "text": "Registration code requested for ivan_test@example.com",
+      "extra": {},
+      "createdAt": "2026-06-30T22:56:43.709Z"
+    },
+    {
+      "id": "log_9e911f5d0123a0da",
+      "level": "warn",
+      "actorId": "system",
+      "action": "auth.register.email_disabled",
+      "text": "Email disabled. Registration code for ivan_test@example.com: 191537",
+      "extra": {},
+      "createdAt": "2026-06-30T22:56:43.709Z"
+    },
+    {
+      "id": "log_85a1894cf92b7445",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.code.created",
+      "text": "One-time code requested for support@twiftyz.ru",
+      "extra": {},
+      "createdAt": "2026-06-30T22:29:31.505Z"
+    },
+    {
+      "id": "log_e1ca63bf4755e86f",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.code.created",
+      "text": "One-time code requested for zokotimeasd@mail.ru",
+      "extra": {},
+      "createdAt": "2026-06-30T22:19:22.855Z"
+    },
+    {
+      "id": "log_ecd2feb5d6c43754",
+      "level": "error",
+      "actorId": "system",
+      "action": "auth.code.email_failed",
+      "text": "Email send failed for zokotimeasd@mail.ru: SMTP 535: 535 5.7.0 Invalid login or password",
+      "extra": {},
+      "createdAt": "2026-06-30T22:17:24.978Z"
+    },
+    {
+      "id": "log_d820b4b2dbd68c1b",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.code.created",
+      "text": "One-time code requested for x@example.com",
+      "extra": {},
+      "createdAt": "2026-06-30T22:03:16.874Z"
+    },
+    {
+      "id": "log_e388a8e7e378fc5d",
+      "level": "warn",
+      "actorId": "system",
+      "action": "auth.code.email_disabled",
+      "text": "Email delivery is not configured. Code for x@example.com: 952258",
+      "extra": {},
+      "createdAt": "2026-06-30T22:03:16.874Z"
+    },
+    {
+      "id": "log_472505a53c71c56e",
+      "level": "error",
+      "actorId": "system",
+      "action": "auth.code.email_failed",
+      "text": "Email send failed for someone@example.com: connect ECONNREFUSED 127.0.0.1:9",
+      "extra": {},
+      "createdAt": "2026-06-30T22:02:07.902Z"
+    },
+    {
+      "id": "log_c9880f4ac7544e98",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login",
+      "text": "User Илья Смирнов signed in",
+      "extra": {
+        "sessionId": "ses_84a023afbc17f8cd"
+      },
+      "createdAt": "2026-06-30T21:45:55.872Z"
+    },
+    {
+      "id": "log_7e6a4e7153cca972",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.code.created",
+      "text": "One-time code requested for +79990001122",
+      "extra": {},
+      "createdAt": "2026-06-30T21:43:27.486Z"
+    },
+    {
+      "id": "log_8a3de1b81f8f3664",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.code.created",
+      "text": "One-time code requested for flow_1782855807@example.com",
+      "extra": {},
+      "createdAt": "2026-06-30T21:43:27.236Z"
+    },
+    {
+      "id": "log_1431b550d4473101",
+      "level": "warn",
+      "actorId": "system",
+      "action": "auth.code.email_disabled",
+      "text": "Email delivery is not configured. Code for flow_1782855807@example.com: 140931",
+      "extra": {},
+      "createdAt": "2026-06-30T21:43:27.236Z"
+    },
+    {
+      "id": "log_c16c83289cba79c1",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.code.created",
+      "text": "One-time code requested for cd_1782855783@example.com",
+      "extra": {},
+      "createdAt": "2026-06-30T21:43:03.457Z"
+    },
+    {
+      "id": "log_17c38870029395ea",
+      "level": "warn",
+      "actorId": "system",
+      "action": "auth.code.email_disabled",
+      "text": "Email delivery is not configured. Code for cd_1782855783@example.com: 495615",
+      "extra": {},
+      "createdAt": "2026-06-30T21:43:03.457Z"
+    },
+    {
+      "id": "log_34c5fe4e20680444",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.code.created",
+      "text": "One-time code requested for cooldown_test_1782855700@example.com",
+      "extra": {},
+      "createdAt": "2026-06-30T21:41:40.540Z"
+    },
+    {
+      "id": "log_da2071d650ab629b",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.code.created",
+      "text": "One-time code requested for cooldown_test_1782855700@example.com",
+      "extra": {},
+      "createdAt": "2026-06-30T21:41:40.512Z"
+    },
+    {
+      "id": "log_9ccc5db343418855",
+      "level": "info",
+      "actorId": "usr_a751e071c345610b",
+      "action": "auth.login",
+      "text": "User Alice Real signed in",
+      "extra": {
+        "sessionId": "ses_35c29cd3d759efcb"
+      },
+      "createdAt": "2026-06-30T21:41:02.008Z"
+    },
+    {
+      "id": "log_36a4e5925f8b3ce6",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.code.created",
+      "text": "One-time code requested for newuser@example.com",
+      "extra": {},
+      "createdAt": "2026-06-30T21:41:01.955Z"
+    },
+    {
+      "id": "log_12a355504c2d1bad",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.code.created",
+      "text": "One-time code requested for newuser@example.com",
+      "extra": {},
+      "createdAt": "2026-06-30T21:41:01.868Z"
+    },
+    {
+      "id": "log_b9cd84bdceeb2f5b",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.logout",
+      "text": "Session ses_75d8c9ec48931eec logged out",
+      "extra": {},
+      "createdAt": "2026-06-30T21:31:45.711Z"
+    },
+    {
+      "id": "log_8e60e87dcd053791",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "settings.updated",
+      "text": "Settings updated",
+      "extra": {},
+      "createdAt": "2026-06-30T21:31:28.196Z"
+    },
+    {
+      "id": "log_cb113394ce32294b",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "settings.updated",
+      "text": "Settings updated",
+      "extra": {},
+      "createdAt": "2026-06-30T21:31:20.014Z"
+    },
+    {
+      "id": "log_cbf6d6201385824d",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "settings.updated",
+      "text": "Settings updated",
+      "extra": {},
+      "createdAt": "2026-06-30T21:31:18.448Z"
+    },
+    {
+      "id": "log_dbdb1429c99bb7a9",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "settings.updated",
+      "text": "Settings updated",
+      "extra": {},
+      "createdAt": "2026-06-30T21:31:15.005Z"
+    },
+    {
+      "id": "log_9b866fd7a33e09b2",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "settings.updated",
+      "text": "Settings updated",
+      "extra": {},
+      "createdAt": "2026-06-30T21:31:12.408Z"
+    },
+    {
+      "id": "log_f50bbe6b38887eb1",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "message.created",
+      "text": "Message sent to Twiftyz Updates",
+      "extra": {},
+      "createdAt": "2026-06-30T21:30:26.222Z"
+    },
+    {
+      "id": "log_f2f6324cae6bc316",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "message.created",
+      "text": "Message sent to Twiftyz Updates",
+      "extra": {},
+      "createdAt": "2026-06-30T21:30:11.146Z"
+    },
+    {
+      "id": "log_8fa1312e54779539",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "file.uploaded",
+      "text": "Uploaded Receipt (1).pdf",
+      "extra": {
+        "fileId": "file_0912e30b1561e939",
+        "chatId": "chat_channel"
+      },
+      "createdAt": "2026-06-30T21:30:11.141Z"
+    },
+    {
+      "id": "log_07844fb90a755c68",
+      "level": "warn",
+      "actorId": "usr_demo",
+      "action": "message.deleted",
+      "text": "Message msg_anna_2 deleted with scope everyone",
+      "extra": {},
+      "createdAt": "2026-06-30T21:02:04.354Z"
+    },
+    {
+      "id": "log_1d236d6746b124e7",
+      "level": "warn",
+      "actorId": "usr_demo",
+      "action": "message.deleted",
+      "text": "Message msg_f5d713b322732580 deleted with scope everyone",
+      "extra": {},
+      "createdAt": "2026-06-30T21:02:02.633Z"
+    },
+    {
+      "id": "log_2700c2358874d898",
+      "level": "warn",
+      "actorId": "usr_demo",
+      "action": "message.deleted",
+      "text": "Message msg_806e135076640b74 deleted with scope everyone",
+      "extra": {},
+      "createdAt": "2026-06-30T21:02:01.682Z"
+    },
+    {
+      "id": "log_e6eb1f69ad0534d6",
+      "level": "warn",
+      "actorId": "usr_demo",
+      "action": "message.deleted",
+      "text": "Message msg_7687cb0a06bcea43 deleted with scope everyone",
+      "extra": {},
+      "createdAt": "2026-06-30T21:02:00.799Z"
+    },
+    {
+      "id": "log_a188180c11faae60",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "message.created",
+      "text": "Message sent to Twiftyz Updates",
+      "extra": {},
+      "createdAt": "2026-06-30T21:01:38.312Z"
+    },
+    {
+      "id": "log_b73ef926859f7166",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "file.uploaded",
+      "text": "Uploaded Receipt.pdf",
+      "extra": {
+        "fileId": "file_9ade88877c32ea7b",
+        "chatId": "chat_channel"
+      },
+      "createdAt": "2026-06-30T21:01:38.308Z"
+    },
+    {
+      "id": "log_54b9d320212b5829",
+      "level": "warn",
+      "actorId": "usr_demo",
+      "action": "message.deleted",
+      "text": "Message msg_fe64792d665720ca deleted with scope everyone",
+      "extra": {},
+      "createdAt": "2026-06-30T21:01:27.440Z"
+    },
+    {
+      "id": "log_9ae19cf3a8430e21",
+      "level": "warn",
+      "actorId": "usr_demo",
+      "action": "message.deleted",
+      "text": "Message msg_f993a37598056bfa deleted with scope everyone",
+      "extra": {},
+      "createdAt": "2026-06-30T21:01:26.890Z"
+    },
+    {
+      "id": "log_c7fbd8d8228d58a1",
+      "level": "warn",
+      "actorId": "usr_demo",
+      "action": "message.deleted",
+      "text": "Message msg_de2df7e72424bc80 deleted with scope everyone",
+      "extra": {},
+      "createdAt": "2026-06-30T21:01:25.685Z"
+    },
+    {
+      "id": "log_42c20bb33568a69e",
+      "level": "warn",
+      "actorId": "usr_demo",
+      "action": "message.deleted",
+      "text": "Message msg_product_1 deleted with scope everyone",
+      "extra": {},
+      "createdAt": "2026-06-30T21:01:22.230Z"
+    },
+    {
+      "id": "log_2458d4d7ac53fc66",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "message.created",
+      "text": "Message sent to Анна Соколова",
+      "extra": {},
+      "createdAt": "2026-06-30T21:01:14.087Z"
+    },
+    {
+      "id": "log_cb7ffa99b37c2025",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "file.uploaded",
+      "text": "Uploaded Receipt.pdf",
+      "extra": {
+        "fileId": "file_af4e341c5e4270f2",
+        "chatId": "chat_anna"
+      },
+      "createdAt": "2026-06-30T21:01:14.082Z"
+    },
+    {
+      "id": "log_620c1141a520fbb4",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "chat.state.updated",
+      "text": "Chat state updated for Анна Соколова",
+      "extra": {},
+      "createdAt": "2026-06-30T21:01:07.955Z"
+    },
+    {
+      "id": "log_e15ffcc60d84cca9",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "chat.state.updated",
+      "text": "Chat state updated for Анна Соколова",
+      "extra": {},
+      "createdAt": "2026-06-30T21:01:05.266Z"
+    },
+    {
+      "id": "log_c1ea120f8bd98c9e",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "chat.created",
+      "text": "group UI Test Group created",
+      "extra": {},
+      "createdAt": "2026-06-30T20:55:40.802Z"
+    },
+    {
+      "id": "log_24b4c9189691e29e",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login",
+      "text": "User Илья Смирнов signed in",
+      "extra": {
+        "sessionId": "ses_226a75e8ed135c47"
+      },
+      "createdAt": "2026-06-30T20:55:40.737Z"
+    },
+    {
+      "id": "log_509122eae76dd7ad",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "settings.updated",
+      "text": "Settings updated",
+      "extra": {},
+      "createdAt": "2026-06-30T20:32:45.811Z"
+    },
+    {
+      "id": "log_6327b5d95a16753e",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login",
+      "text": "User Илья Смирнов signed in",
+      "extra": {
+        "sessionId": "ses_75d8c9ec48931eec"
+      },
+      "createdAt": "2026-06-30T20:32:17.356Z"
+    },
+    {
+      "id": "log_6bd2925e43f530b3",
+      "level": "info",
+      "actorId": "usr_9c77f4afc1fe6316",
+      "action": "message.created",
+      "text": "Message sent to asx",
+      "extra": {},
+      "createdAt": "2026-06-30T19:52:02.511Z"
+    },
+    {
+      "id": "log_cb08b43fc3625cc8",
+      "level": "info",
+      "actorId": "usr_9c77f4afc1fe6316",
+      "action": "profile.updated",
+      "text": "Profile updated",
+      "extra": {},
+      "createdAt": "2026-06-30T19:51:54.668Z"
+    },
+    {
+      "id": "log_9f5b20dc2337e863",
+      "level": "info",
+      "actorId": "usr_9c77f4afc1fe6316",
+      "action": "message.created",
+      "text": "Message sent to asx",
+      "extra": {},
+      "createdAt": "2026-06-30T19:51:37.056Z"
+    },
+    {
+      "id": "log_cff331fb9ff0c52d",
+      "level": "info",
+      "actorId": "usr_9c77f4afc1fe6316",
+      "action": "message.created",
+      "text": "Message sent to asx",
+      "extra": {},
+      "createdAt": "2026-06-30T19:51:29.829Z"
+    },
+    {
+      "id": "log_9469798da6bed5b0",
+      "level": "info",
+      "actorId": "usr_9c77f4afc1fe6316",
+      "action": "message.created",
+      "text": "Message sent to asx",
+      "extra": {},
+      "createdAt": "2026-06-30T19:51:25.730Z"
+    },
+    {
+      "id": "log_19757bc916086a02",
+      "level": "info",
+      "actorId": "usr_9c77f4afc1fe6316",
+      "action": "chat.created",
+      "text": "group asx created",
+      "extra": {},
+      "createdAt": "2026-06-30T19:51:21.361Z"
+    },
+    {
+      "id": "log_17d8fc5521069b19",
+      "level": "info",
+      "actorId": "usr_9c77f4afc1fe6316",
+      "action": "profile.updated",
+      "text": "Profile updated",
+      "extra": {},
+      "createdAt": "2026-06-30T19:51:12.613Z"
+    },
+    {
+      "id": "log_ce326a8ed82fa8b5",
+      "level": "info",
+      "actorId": "usr_9c77f4afc1fe6316",
+      "action": "auth.login",
+      "text": "User Новый Пользователь signed in",
+      "extra": {
+        "sessionId": "ses_fcd1d66b726b64da"
+      },
+      "createdAt": "2026-06-30T19:51:03.406Z"
+    },
+    {
+      "id": "log_459d2744b3f06f19",
+      "level": "info",
+      "actorId": "usr_9c77f4afc1fe6316",
+      "action": "user.created",
+      "text": "Created account for 89610080030",
+      "extra": {},
+      "createdAt": "2026-06-30T19:51:03.406Z"
+    },
+    {
+      "id": "log_5b3312a5c3cc28f8",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.code.created",
+      "text": "One-time code requested for 89610080030",
+      "extra": {},
+      "createdAt": "2026-06-30T19:51:01.965Z"
+    },
+    {
+      "id": "log_8ce001ca28357448",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login",
+      "text": "User Илья Смирнов signed in",
+      "extra": {
+        "sessionId": "ses_c271194cc2701adf"
+      },
+      "createdAt": "2026-06-30T19:50:48.737Z"
+    },
+    {
+      "id": "log_30438397e0c471b3",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.code.created",
+      "text": "One-time code requested for demo@twiftyz.local",
+      "extra": {},
+      "createdAt": "2026-06-30T19:50:40.927Z"
+    },
+    {
+      "id": "log_157d8617def2304d",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login",
+      "text": "User Илья Смирнов signed in",
+      "extra": {
+        "sessionId": "ses_ea8ecc72b34ab944"
+      },
+      "createdAt": "2026-06-30T19:40:33.731Z"
+    },
+    {
+      "id": "log_4bfa655b9e87ed1d",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login",
+      "text": "User Илья Смирнов signed in",
+      "extra": {
+        "sessionId": "ses_8cc5e96c95eafcbe"
+      },
+      "createdAt": "2026-06-30T19:40:07.883Z"
+    },
+    {
+      "id": "log_c84dd5dee755e7b9",
+      "level": "info",
+      "actorId": "usr_e6f60a8e82f80a88",
+      "action": "chat.created",
+      "text": "direct Find Two created",
+      "extra": {},
+      "createdAt": "2026-06-30T19:34:37.692Z"
+    },
+    {
+      "id": "log_b6cbb084efbdbf45",
+      "level": "info",
+      "actorId": "usr_013208645887655b",
+      "action": "auth.register",
+      "text": "User Find Two registered",
+      "extra": {
+        "sessionId": "ses_c049c318bf678d5d"
+      },
+      "createdAt": "2026-06-30T19:34:37.682Z"
+    },
+    {
+      "id": "log_57fabdf125ae3648",
+      "level": "info",
+      "actorId": "usr_013208645887655b",
+      "action": "user.registered",
+      "text": "Registered account findb1782848077",
+      "extra": {},
+      "createdAt": "2026-06-30T19:34:37.682Z"
+    },
+    {
+      "id": "log_87e5078674391721",
+      "level": "info",
+      "actorId": "usr_e6f60a8e82f80a88",
+      "action": "auth.register",
+      "text": "User Find One registered",
+      "extra": {
+        "sessionId": "ses_2b9259acbbd3acb3"
+      },
+      "createdAt": "2026-06-30T19:34:37.626Z"
+    },
+    {
+      "id": "log_4cce8536dd5892bd",
+      "level": "info",
+      "actorId": "usr_e6f60a8e82f80a88",
+      "action": "user.registered",
+      "text": "Registered account finda1782848077",
+      "extra": {},
+      "createdAt": "2026-06-30T19:34:37.625Z"
+    },
+    {
+      "id": "log_6f1283b985cb2a3f",
+      "level": "info",
+      "actorId": "usr_1942dc207c73e6a2",
+      "action": "auth.login",
+      "text": "User Secure User signed in",
+      "extra": {
+        "sessionId": "ses_ae4f557973c72808"
+      },
+      "createdAt": "2026-06-30T19:34:16.319Z"
+    },
+    {
+      "id": "log_c90e9502b765c04a",
+      "level": "warn",
+      "actorId": "usr_1942dc207c73e6a2",
+      "action": "password.changed",
+      "text": "User changed password and revoked other sessions",
+      "extra": {},
+      "createdAt": "2026-06-30T19:34:16.282Z"
+    },
+    {
+      "id": "log_60ed38fb63352ae8",
+      "level": "info",
+      "actorId": "usr_1942dc207c73e6a2",
+      "action": "auth.login",
+      "text": "User Secure User signed in",
+      "extra": {
+        "sessionId": "ses_2e32c4bb535a1839"
+      },
+      "createdAt": "2026-06-30T19:34:16.209Z"
+    },
+    {
+      "id": "log_115285a9a5ac54dc",
+      "level": "info",
+      "actorId": "usr_1942dc207c73e6a2",
+      "action": "auth.register",
+      "text": "User Secure User registered",
+      "extra": {
+        "sessionId": "ses_096cfadc59753852"
+      },
+      "createdAt": "2026-06-30T19:34:16.152Z"
+    },
+    {
+      "id": "log_bcefd28fb8cfd4ec",
+      "level": "info",
+      "actorId": "usr_1942dc207c73e6a2",
+      "action": "user.registered",
+      "text": "Registered account secure1782848056",
+      "extra": {},
+      "createdAt": "2026-06-30T19:34:16.152Z"
+    },
+    {
+      "id": "log_1836be375e672f34",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.logout",
+      "text": "Session ses_fdbda9bdc8d8032b logged out",
+      "extra": {},
+      "createdAt": "2026-06-30T19:28:02.807Z"
+    },
+    {
+      "id": "log_810c2d75a5787253",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login",
+      "text": "User Илья Смирнов signed in",
+      "extra": {
+        "sessionId": "ses_fdbda9bdc8d8032b"
+      },
+      "createdAt": "2026-06-30T19:28:02.772Z"
+    },
+    {
+      "id": "log_12af3425d6bc98b2",
+      "level": "info",
+      "actorId": "usr_a751e071c345610b",
+      "action": "message.created",
+      "text": "Message sent to Bob Real",
+      "extra": {},
+      "createdAt": "2026-06-30T19:26:13.932Z"
+    },
+    {
+      "id": "log_6aa8b2f8abfee39f",
+      "level": "info",
+      "actorId": "usr_a751e071c345610b",
+      "action": "chat.created",
+      "text": "direct Bob Real created",
+      "extra": {},
+      "createdAt": "2026-06-30T19:26:13.929Z"
+    },
+    {
+      "id": "log_a4993397154cd936",
+      "level": "info",
+      "actorId": "usr_a751e071c345610b",
+      "action": "auth.login",
+      "text": "User Alice Real signed in",
+      "extra": {
+        "sessionId": "ses_5c8fbdf1ca6f1701"
+      },
+      "createdAt": "2026-06-30T19:26:13.922Z"
+    },
+    {
+      "id": "log_368947f2322439e0",
+      "level": "info",
+      "actorId": "usr_e8c726b469d4dff2",
+      "action": "auth.register",
+      "text": "User Bob Real registered",
+      "extra": {
+        "sessionId": "ses_290a6ddca69bc54f"
+      },
+      "createdAt": "2026-06-30T19:26:13.889Z"
+    },
+    {
+      "id": "log_3da95e6e35548317",
+      "level": "info",
+      "actorId": "usr_e8c726b469d4dff2",
+      "action": "user.registered",
+      "text": "Registered account bob1782847573",
+      "extra": {},
+      "createdAt": "2026-06-30T19:26:13.889Z"
+    },
+    {
+      "id": "log_4fa67ed4c6c2b193",
+      "level": "info",
+      "actorId": "usr_a751e071c345610b",
+      "action": "auth.register",
+      "text": "User Alice Real registered",
+      "extra": {
+        "sessionId": "ses_f357668e8b041273"
+      },
+      "createdAt": "2026-06-30T19:26:13.833Z"
+    },
+    {
+      "id": "log_5b60233ea450e652",
+      "level": "info",
+      "actorId": "usr_a751e071c345610b",
+      "action": "user.registered",
+      "text": "Registered account alice1782847573",
+      "extra": {},
+      "createdAt": "2026-06-30T19:26:13.832Z"
+    },
+    {
+      "id": "log_11c3b716524a2af0",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "chat.created",
+      "text": "group asx created",
+      "extra": {},
+      "createdAt": "2026-06-30T19:17:29.076Z"
+    },
+    {
+      "id": "log_4951ce50652d217a",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "message.created",
+      "text": "Message sent to Команда продукта",
+      "extra": {},
+      "createdAt": "2026-06-30T19:17:22.624Z"
+    },
+    {
+      "id": "log_b73ff613a0c3be81",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "message.created",
+      "text": "Message sent to Команда продукта",
+      "extra": {},
+      "createdAt": "2026-06-30T19:17:20.909Z"
+    },
+    {
+      "id": "log_5007a9ae0c41bd81",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "message.created",
+      "text": "Message sent to Команда продукта",
+      "extra": {},
+      "createdAt": "2026-06-30T19:17:18.837Z"
+    },
+    {
+      "id": "log_d3ba5c7ce16f5fd4",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "settings.updated",
+      "text": "Settings updated",
+      "extra": {},
+      "createdAt": "2026-06-30T19:17:00.714Z"
+    },
+    {
+      "id": "log_5f8ec65aaf5e1cf6",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "call.started",
+      "text": "video call started in Анна Соколова",
+      "extra": {},
+      "createdAt": "2026-06-30T19:16:52.285Z"
+    },
+    {
+      "id": "log_594854b42f8a8d55",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "call.started",
+      "text": "video call started in Анна Соколова",
+      "extra": {},
+      "createdAt": "2026-06-30T19:16:47.662Z"
+    },
+    {
+      "id": "log_9d289996c271f2a4",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "call.started",
+      "text": "voice call started in Анна Соколова",
+      "extra": {},
+      "createdAt": "2026-06-30T19:16:46.703Z"
+    },
+    {
+      "id": "log_e35de36de9432f13",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "call.started",
+      "text": "voice call started in Анна Соколова",
+      "extra": {},
+      "createdAt": "2026-06-30T19:16:43.954Z"
+    },
+    {
+      "id": "log_54ac3ad77212cc3e",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "message.created",
+      "text": "Message sent to Анна Соколова",
+      "extra": {},
+      "createdAt": "2026-06-30T19:16:37.495Z"
+    },
+    {
+      "id": "log_7b63072fbae34bc2",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login",
+      "text": "User Илья Смирнов signed in",
+      "extra": {
+        "sessionId": "ses_00260d0e0f0c439e"
+      },
+      "createdAt": "2026-06-30T19:16:11.492Z"
+    },
+    {
+      "id": "log_d0eaabe6188af622",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.code.created",
+      "text": "One-time code requested for demo@twiftyz.local",
+      "extra": {},
+      "createdAt": "2026-06-30T19:16:09.261Z"
+    },
+    {
+      "id": "log_40eb09c3b2fcd0f7",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.code.created",
+      "text": "One-time code requested for demo@twiftyz.local",
+      "extra": {},
+      "createdAt": "2026-06-30T19:04:25.870Z"
+    },
+    {
+      "id": "log_2134d9b7bdc5ffd2",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "message.created",
+      "text": "Message sent to Анна Соколова",
+      "extra": {},
+      "createdAt": "2026-06-30T19:03:12.897Z"
+    },
+    {
+      "id": "log_503a4afe6292a7a8",
+      "level": "info",
+      "actorId": "usr_demo",
+      "action": "auth.login",
+      "text": "User Илья Смирнов signed in",
+      "extra": {
+        "sessionId": "ses_418ffee682126138"
+      },
+      "createdAt": "2026-06-30T19:03:12.880Z"
+    },
+    {
+      "id": "log_2c71bafa7c7e6440",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.code.created",
+      "text": "One-time code requested for demo@twiftyz.local",
+      "extra": {},
+      "createdAt": "2026-06-30T19:03:12.830Z"
+    },
+    {
+      "id": "log_051141cc9d3f9b04",
+      "level": "info",
+      "actorId": "system",
+      "action": "auth.code.created",
+      "text": "One-time code requested for demo@twiftyz.local",
+      "extra": {},
+      "createdAt": "2026-06-30T19:02:40.461Z"
+    },
+    {
+      "id": "log_6a068ab6acaa5991",
+      "level": "info",
+      "actorId": "system",
+      "action": "seed.created",
+      "text": "Seed data initialized",
+      "createdAt": "2026-06-30T18:59:47.315Z"
+    }
+  ],
+  "loginChallenges": [],
+  "pendingRegistrations": [
+    {
+      "id": "reg_e2b8b155a4069aa8",
+      "email": "smoke1@example.com",
+      "phone": "+79990009911",
+      "nickname": "smoke.test1",
+      "firstName": "�����",
+      "lastName": "",
+      "timezone": "Europe/Moscow",
+      "passwordHash": "scrypt$mgH95r3SJ40wFxiVjGwKZw$6PrfOhiRqyMv5-MIT_sXfzbRUYMlHUnDQ1Pj1S7NyD_OrcHnTPHkVkimGIbcS7gaTBA7daRfNSt8w4N1C5rwMQ",
+      "code": "410256",
+      "attempts": 1,
+      "expiresAt": "2026-07-01T22:37:24.006Z",
+      "createdAt": "2026-07-01T22:27:24.006Z"
+    },
+    {
+      "id": "reg_ce1f7f807d85e185",
+      "email": "probe.a1@example.com",
+      "phone": "+79990012345",
+      "nickname": "probe.a1",
+      "firstName": "�",
+      "lastName": "",
+      "timezone": "Europe/Moscow",
+      "passwordHash": "scrypt$1vBlu8twTe0LzMlZmJfceA$2LtSRZUqNOXos4iC2AMX0GUS1JtwZONOSxo5IEqf2ucuoVH-wYZ-4RRBFlfG8SxHRxhFUjI2xXzVyP07e2mTYQ",
+      "code": "675058",
+      "attempts": 0,
+      "expiresAt": "2026-07-01T22:39:20.008Z",
+      "createdAt": "2026-07-01T22:29:20.008Z"
+    }
+  ],
+  "resetChallenges": []
+}

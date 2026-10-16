@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="1024" height="1024">
+  <defs>
+    <linearGradient id="twg3" x1="0%" y1="0%" x2="100%" y2="30%">
+      <stop offset="0%" stop-color="#2DE5C8"></stop><stop offset="100%" stop-color="#8B5CF6"></stop>
+    </linearGradient>
+    <linearGradient id="twg5" x1="96" y1="86" x2="156" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B5CF6"></stop><stop offset="100%" stop-color="#2DE5C8"></stop>
+    </linearGradient>
+  </defs>
+  <path d="M84 44 L166 44 C186 44 200 58 200 78 L200 128 C200 148 186 162 166 162 L106 162 L66 194" fill="none" stroke="url(#twg3)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M96 86 L156 86" fill="none" stroke="url(#twg5)" stroke-width="20" stroke-linecap="round"></path>
+  <path d="M126 86 L126 130" fill="none" stroke="url(#twg5)" stroke-width="20" stroke-linecap="round"></path>
+  <path d="M163 110 C164.96 119.24 167.38 121.66 176.62 123.62 C167.38 125.58 164.96 128 163 137.24 C161.04 128 158.62 125.58 149.38 123.62 C158.62 121.66 161.04 119.24 163 110 Z" fill="#F4F6FB"></path>
+</svg>

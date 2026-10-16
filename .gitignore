@@ -1,0 +1,5 @@
+data/store.json
+uploads/
+server.log
+server.cmd.log
+*.tmp

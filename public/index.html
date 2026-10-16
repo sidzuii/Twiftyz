@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="Twiftyz Messenger — быстрый и безопасный мессенджер: личные чаты, группы, каналы, звонки и обмен файлами в реальном времени." />
+    <meta name="theme-color" content="#0d9488" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0a0e14" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" type="image/svg+xml" href="/assets/logo/twiftyz-mark-2a.svg" />
+    <link rel="icon" type="image/png" href="/assets/logo/twiftyz-mark-2a.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/assets/logo/icon-180.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Twiftyz" />
+    <title>Twiftyz Messenger</title>
+    <script>
+      // Apply the saved appearance before first paint to avoid a theme flash.
+      (function () {
+        try {
+          var pref = localStorage.getItem('twiftyz_theme') || 'auto';
+          var dark = pref === 'dark' || (pref === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          var root = document.documentElement;
+          root.dataset.theme = dark ? 'dark' : 'light';
+          root.dataset.themePreference = pref;
+          var size = Number(localStorage.getItem('twiftyz_font_size')) || 15;
+          root.style.fontSize = size + 'px';
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/styles.css?v=2" />
+  </head>
+  <body>
+    <div id="app">
+      <section class="boot-screen">
+        <img class="brand-logo" src="/assets/logo/twiftyz-mark-2a.svg" alt="Twiftyz" />
+        <p>Загрузка Twiftyz Messenger</p>
+      </section>
+    </div>
+    <script src="/app.js?v=2" defer></script>
+  </body>
+</html>
